@@ -1,0 +1,13 @@
+package com.java.Inheritance;
+//interface is a mechanism to achieve multiple inheritance in java
+public interface InterfaceTwo {
+
+}
+interface InterfaceThree
+{
+	
+}
+class Classic implements InterfaceTwo,InterfaceThree
+{
+	
+}

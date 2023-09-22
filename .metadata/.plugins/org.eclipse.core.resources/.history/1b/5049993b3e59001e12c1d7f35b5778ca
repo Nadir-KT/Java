@@ -1,0 +1,15 @@
+package com.java.Inheritance;
+
+public class InterfaceMain {
+
+	public static void main(String[] args) 
+	{
+		new Interface();//Object creation not possible in interface//can't instantiate an interface
+		Interface i=new Fan();//Upcasting
+		i.on();
+		i.off();
+		i=new Bulb();//RP
+		i.on();
+		i.off();
+	}
+}

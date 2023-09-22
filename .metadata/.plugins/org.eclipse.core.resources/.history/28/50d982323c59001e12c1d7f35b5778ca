@@ -1,0 +1,30 @@
+package com.java.Inheritance;
+//interface is a type which act as a bridge between two programs
+public interface Interface {
+	public abstract void on();
+	void off();//all methods are public abstract by default in interface, concrete method is not possible in interface
+	public static final int a=25;//final variables requires initialization
+	int b=20;//all variables are public static final by default in interface
+}
+class Fan implements Interface
+{//a class extends another class, an interface extends another interface but a class implements an interface
+	@Override
+	public void on() {
+		// TODO Auto-generated method stub
+	}
+	@Override
+	public void off() {
+		// TODO Auto-generated method stub
+	}
+}
+class Bulb implements Interface
+{
+	@Override
+	public void on() {
+		// TODO Auto-generated method stub
+	}
+	@Override
+	public void off() {
+		// TODO Auto-generated method stub
+	}
+}

@@ -1,0 +1,10 @@
+package com.java.Inheritance;
+
+public class InterfaceMain {
+
+	public static void main(String[] args) 
+	{
+		//new Interface();//Object creation not possible in interface
+		Interface i=new Fan();//Upcasting
+	}
+}

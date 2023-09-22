@@ -1,0 +1,10 @@
+package com.java.ObjectClass;
+
+public class ToStringMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ToString s1=new ToString(100, 200);
+	}
+
+}

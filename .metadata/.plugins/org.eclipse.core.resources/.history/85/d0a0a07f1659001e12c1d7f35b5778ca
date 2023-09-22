@@ -1,0 +1,10 @@
+package com.java.ObjectClass;
+
+public class Equals extends Object//By default all classes inherit object class
+{
+	int pages;
+	Equals(int p)
+	{
+		pages=p;
+	}
+}

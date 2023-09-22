@@ -1,0 +1,9 @@
+package com.java.Inheritance;
+
+public interface InterfaceTwo {
+
+}
+interface InterfaceThree
+{
+	
+}
