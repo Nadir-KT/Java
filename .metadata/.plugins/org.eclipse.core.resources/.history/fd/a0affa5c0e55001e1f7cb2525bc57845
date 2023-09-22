@@ -1,0 +1,11 @@
+package com.java.ReturnObject;
+
+import java.util.Scanner;
+
+public class BookCreator {
+
+	static void createNewBook()
+	{
+		Scanner sc=new Scanner(System.in);
+	}
+}

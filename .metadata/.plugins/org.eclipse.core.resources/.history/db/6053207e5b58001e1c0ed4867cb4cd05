@@ -1,0 +1,9 @@
+package com.java.Polymorphism;
+
+public class Bike 
+{
+	void start()
+	{
+		System.out.println("Bike start");
+	}
+}

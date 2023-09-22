@@ -1,0 +1,14 @@
+package com.java.Binding;
+
+public class BindingMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		m1(new A());//Binding b1=new A();
+		m1(new B());//Binding b1=new B();
+	}
+	static void m1(Binding b1) {
+		b1.test1();//Late Binding//Runtime Polymorphism
+		b1.test2();//Early Binding//Runtime Polymorphism
+	}
+}

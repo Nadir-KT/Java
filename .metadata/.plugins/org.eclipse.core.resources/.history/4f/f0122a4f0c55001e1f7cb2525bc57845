@@ -1,0 +1,8 @@
+package com.java.ReturnObject;
+
+public class Book {
+	String title;
+	String author;
+	double price;
+
+}

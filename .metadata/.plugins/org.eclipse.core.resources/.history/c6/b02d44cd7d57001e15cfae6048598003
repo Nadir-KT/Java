@@ -1,0 +1,14 @@
+package com.java.FinalModifier;
+
+public class FinalModifier {
+	final static int a=10;//constants//can't change the value of a final variable
+	//can't inherit or extend a final class
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println(a++);//The final field cannot be reassigned
+	}
+	final void m1()//can't override a final method
+	{
+		System.out.println("m1 in final");
+	}
+}

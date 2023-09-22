@@ -1,0 +1,65 @@
+IDE: Eclipse/NetBeans/IntelliJ
+Expire Date : 03 December 2023
+Total = 309 (or) 297 = 4 vids/day || Progress=297-48=253, Rewise=49to57,Days Remaining=SEP=30-17=13,OCT=31,NOV=30,DEC=3,Total=13+31+30+3=77, 253/77= 4 vids/day
+Module-1 65 
+--------
+Setup
+Datatypes
+Module-2 23
+--------
+String
+Arrays
+Module-3 42
+--------
+Applets
+Swings
+Collection
+Exceptions
+Multi threading
+Front-end technologies
+----------------------
+HTML-11, CSS-23, JS-31, JQuery, Bootstrap
+Database technologies
+---------------------
+MySQL - 18
+Web Applications
+----------------
+Servlets-28, JSP, JDBC-5
+JAVA Frameworks
+---------------
+Hibernate-8+6
+Spring MVC-12+6
+Spring Boot-7+12
+
+Features of Java
+----------------
+Simple: Pointers, Call by reference, Operator overloading
+Object Oriented: Class, Object, Inheritance, Abstraction, Polymorphism, Encapsulation
+Secure: Platform independent
+Portable
+High performance: JVM
+Architectural Neutral: Same data type memory size on 32/64bit systems
+Multithreading
+
+JDK - Java Development Kit
+JRE - Java Runtime Environment
+java -version
+Environment Variable
+--------------------
+Search for Edit the system environment -> Environment Variable
+User variables -> New -> Variable name: JAVA_HOME -> Variable value: C:\Program Files\Java\jdk-1.8 -> OK
+User variables -> Path -> Edit -> New -> %JAVA_HOME%\bin -> OK
+
+F:
+cd Java
+javac Abc.java // File_name.java (or) Class_name.java, Compilation Syntax: javac Class_name.java
+java Abc // To run the code, Syntax: java class_name
+
+Eclipse
+-------
+File->New->Project...->Java Project
+Use an executiin environment JRE: JavaSE - 1.8
+Open Prespective->No
+Package->Folder->Class
+Autofill=Ctrl+Space
+

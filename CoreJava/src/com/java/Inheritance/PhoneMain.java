@@ -1,0 +1,15 @@
+package com.java.Inheritance;
+
+public class PhoneMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		iphone12 obj=new iphone12();
+		obj.on();
+		obj.faceDetection();
+		obj.takePhoto();
+		obj.iosUpdate();
+		obj.off();
+	}
+
+}

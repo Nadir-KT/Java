@@ -1,0 +1,6 @@
+package com.java.Modifier;
+//The method which is declared with abstract keyword and doesn't have any implementation is known as abstract method
+public class AbstractModifier 
+{
+	//abstract = not completed
+}

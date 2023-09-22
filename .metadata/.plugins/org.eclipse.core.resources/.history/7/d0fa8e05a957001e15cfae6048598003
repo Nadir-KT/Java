@@ -1,0 +1,24 @@
+package com.java.Binding;
+
+public class X 
+{
+	static String m1()
+	{
+		return "a";
+	}
+	String m2()
+	{
+		return "b";
+	}
+}
+class Y extends X
+{
+	static String m1()
+	{
+		return "a";
+	}
+	String m2()
+	{
+		return "b";
+	}
+}

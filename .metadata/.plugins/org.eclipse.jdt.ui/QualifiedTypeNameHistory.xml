@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.java.ReturnObject.BookCreator"/>
+    <fullyQualifiedTypeName name="com.java.inheritance.iphone"/>
+    <fullyQualifiedTypeName name="com.java.inheritance.Phone"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="com.java.Constructor.ConstructorChaining"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="com.java.Method.Overriding"/>
+    <fullyQualifiedTypeName name="com.java.Method.Dog"/>
+    <fullyQualifiedTypeName name="com.java.Method.Snake"/>
+    <fullyQualifiedTypeName name="com.java.Method.Over_riding"/>
+    <fullyQualifiedTypeName name="com.java.FinalModifier.FinalModifier"/>
+    <fullyQualifiedTypeName name="com.java.Upcasting.Upcasting"/>
+    <fullyQualifiedTypeName name="com.java.Binding.Binding"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.java.Modifier.AbstractModifier"/>
+    <fullyQualifiedTypeName name="com.java.Inheritance.stepFather"/>
+    <fullyQualifiedTypeName name="com.java.Casting.DownCasting"/>
+    <fullyQualifiedTypeName name="com.java.Polymorphism.Bike"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+</qualifiedTypeNameHistroy>

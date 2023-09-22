@@ -1,0 +1,13 @@
+package com.java.ReturnObject;
+//How to return an Object from a method
+public class Book {
+	String title;
+	String author;
+	double price;
+	Book(String t, String a, double p)
+	{
+		title=t;
+		author=a;
+		price=p;
+	}
+}

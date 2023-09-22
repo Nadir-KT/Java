@@ -1,0 +1,15 @@
+package com.java.Upcasting;
+
+public class UpcastingMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A a1=new A();
+		a1.test1();
+		a1.test2();
+		Upcasting u1=new A();//Upcasting//can acess methods in super class only
+		//Casting subclass instance to super type variable is known as upcasting
+		u1.test1();
+	}
+
+}

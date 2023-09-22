@@ -1,0 +1,14 @@
+package com.java.Inheritance;
+
+public class MultipleInheritance 
+{
+	//GeneticFather
+}
+class stepFather
+{
+	
+}
+class chid
+{
+	
+}

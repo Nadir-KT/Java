@@ -1,0 +1,14 @@
+package com.java.Upcasting;
+
+public class UpcastingMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B b1=new B();
+		b1.test1();
+		b1.test2();
+		A a1=new B();//Upcasting
+
+	}
+
+}

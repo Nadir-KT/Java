@@ -1,0 +1,22 @@
+package com.java.Method;
+
+public class Overriding {
+	void move()
+	{
+		System.out.println("Animal moving");
+	}
+
+}
+
+class Dog extends Overriding
+{
+	
+}
+
+class Snake extends Overriding
+{
+	void move()
+	{
+		System.out.println("Snake moving");
+	}
+}

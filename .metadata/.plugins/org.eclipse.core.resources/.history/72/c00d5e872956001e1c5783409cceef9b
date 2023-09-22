@@ -1,0 +1,51 @@
+package com.java.inheritance;
+//Inheritance is a process in which acquiring properties from one type to another type
+//Inheriting a class from multiple base class is known as multiple inheritance
+public class Phone //Super class OR Base class OR Parent class
+{
+	int a=10;//data members = variables + methods(functions)
+	void on()//private methods cannot be inherited
+	{
+		System.out.println("Phone on");
+	}
+	void off()
+	{
+		System.out.println("Phone off");
+	}
+}
+
+class instrumenCluster
+{
+	void fun() 
+	{
+		System.out.println("Digital Speed Meter");
+	}
+}
+
+class iphone extends Phone //Sub class OR Child class
+{
+	void takePhoto()
+	{
+		System.out.println("Take Photo");
+	}
+	void iosUpdate()
+	{
+		System.out.println("Updating to ios Version: "+a);
+	}
+}
+
+class iphone12 extends iphone
+{
+	void faceDetection()
+	{
+		System.out.println("Face Detection");
+	}
+}
+
+class infotainmentSystem extends iphone12,instrumenCluster
+{
+	void info()
+	{
+		System.out.println("Face Detection");
+	}
+}

@@ -1,0 +1,18 @@
+package com.java.ObjectClass;
+// Object class is a default super most class in java
+// Class by default extends Object from java.lang package, as it is default no need to mention [extends Object]
+public class ObjClass extends Object
+{
+	/*below 11 are the methods of Object class 
+	public String toString()
+	public boolean equals(Object arg)
+	public int hashCode()
+	public class getClass()
+	public void wait()
+	public void wait(long arg)
+	public void wait(long arg, int arg)
+	public void notify()
+	public void notifyAll()
+	protected void finalaize()
+	protected Object clone() */
+}

@@ -1,0 +1,35 @@
+Data Types
+----------
+Primitives: byte(1byte), short(2byte), int(4byte), long(8byte), float(4byte), double(2byte), char(2byte), boolean(1bit)-true/false
+NonPrimitives(2byte): String, Class name, interface name
+/*class Scanner
+		{
+			public void nextInt(){}
+			public void nextFloat(){}
+			public void nextByte(){}
+			public void nextShort(){}
+			public void nextLong(){}
+			public void next().charAt(0);   
+			public void nextDouble(){}
+			public void nextBoolean(){}
+			public void next(){}//String
+			public void nextLine(){}//String
+		}*/
+Default Value: 0(byte,short,int,long), 0.0(float,double), empty(char), false(boolean), null(NonPrimitives)
+
+Keywords (Small letters)
+--------
+class,public,void,byte,short,if else,for,while,int
+
+Identifiers(User defined)
+-------------------------
+First letter must be capital in case of naming class.
+Don't start with numbers.
+Special characters are not allowed except $ and _
+Constants should be in capital letters
+
+Variables: Variable is temporary memory location to store the value
+---------
+static/class variable: static int a;
+nonstatic/instance variable: String name;
+local variable(variable declared inside a method & must have to initialize): String color;

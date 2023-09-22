@@ -1,0 +1,5 @@
+package com.java.inheritance;
+//Inheritance is a process in which acquiring properties from one type to another type
+public class Phone {
+
+}

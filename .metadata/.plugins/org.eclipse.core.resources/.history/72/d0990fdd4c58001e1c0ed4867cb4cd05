@@ -1,0 +1,5 @@
+package com.java.Casting;
+//Down casting: The reference of super class object is passed to the child class Implicitly Down casting is not possible.
+public class DownCasting {
+
+}

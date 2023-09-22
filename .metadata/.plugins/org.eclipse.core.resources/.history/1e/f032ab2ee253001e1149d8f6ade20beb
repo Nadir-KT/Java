@@ -1,0 +1,43 @@
+//constructor overloading
+class ConstructorO
+{
+	int height;
+	int width;
+	int length;
+	public static void main(String[] args)
+	{
+		ConstructorO b1 = new ConstructorO();
+		ConstructorO b2 = new ConstructorO(10,20,30);
+		ConstructorO b3 = new ConstructorO(25);
+		b1.display();
+		b2.display();
+		b3.display();
+	}
+	ConstructorO()//Costructor doesn't have return type
+	{
+		System.out.println("Constructor calling");//Default Constructor
+	}
+	ConstructorO(int h,int w,int l)//Costructor doesn't have return type
+	{
+		System.out.println("Parameterized Constructor calling, Parameter="+h);//Parameterized Constructor
+		height=h;
+		width=w;
+		length=l;
+	}
+	ConstructorO(int a)//Costructor doesn't have return type
+	{
+		height=width=length=a;
+	}
+	void display()
+	{
+		System.out.println("Height="+height);
+		System.out.println("Width="+width);
+		System.out.println("Length="+length);
+	}
+	
+}
+
+//1. Constructor name must be the same as its class name
+//2. Constructor must have no return type.
+//3. Constructor cannot be static.
+//Object Creation: Allocate Memory for nonstatic variable, Execute Default Constructor, Returns reference

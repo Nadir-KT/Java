@@ -1,0 +1,13 @@
+package com.java.Binding;
+
+public class Binding
+{
+	void test1()
+	{
+		System.out.println("test 1 in Binding");
+	}
+	static void test2()
+	{
+		System.out.println("static test 2 in Binding");
+	}
+}

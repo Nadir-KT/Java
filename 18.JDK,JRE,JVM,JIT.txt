@@ -1,0 +1,4 @@
+Java Development Kit (JDK) = JRE + development tools
+Java Runtime Environment (JRE) = JVM + library classes
+Java Virtual Machine (JVM) = JIT + interpreter of  class files.
+Just In Time compiler (JIT) = optimize the code for better performance.
