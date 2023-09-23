@@ -1,0 +1,9 @@
+package com.java.Encapsulation;
+
+public class EncapsulationClass {
+
+	public static void main(String[] args)
+	{
+		
+	}
+}

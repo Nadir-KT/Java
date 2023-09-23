@@ -1,0 +1,5 @@
+package com.java.Abstraction;
+
+public interface Abstraction {
+
+}

@@ -1,0 +1,30 @@
+package com.java.Encapsulation;
+//Encapsulation: it is a process of making or declaring fields private and providing access through public methods
+//It is a process of wrapping code and data together into a single unit
+public class Encapsulation 
+{
+	private String name;
+	private int age;
+	private double salary;
+	//Setter & Getter
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	public void setAge(int age)
+	{
+		this.age=age;
+	}
+	public void setSalary(double salary)
+	{
+		this.salary=salary;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	public double getSalary()
+	{
+		return salary;
+	}
+}

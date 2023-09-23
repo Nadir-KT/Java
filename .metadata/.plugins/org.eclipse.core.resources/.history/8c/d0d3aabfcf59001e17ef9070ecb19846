@@ -1,0 +1,8 @@
+package com.java.Abstraction;
+
+public class AbstractionMain {
+
+	public static void main(String[] args) {
+		Bicycle b1= new Bicycle();
+	}
+}

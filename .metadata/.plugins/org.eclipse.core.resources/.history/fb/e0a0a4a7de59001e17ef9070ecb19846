@@ -1,0 +1,11 @@
+package com.java.Aggregation;
+
+public class AggregationMain {
+
+	public static void main(String[] args) 
+	{
+		Aggregation a1=new Aggregation("Eranakulam", "Kerala", "India");
+		child c1=new child(2, "Manu", a1);
+		child c1=new child(2, "Manu", a1);
+	}
+}

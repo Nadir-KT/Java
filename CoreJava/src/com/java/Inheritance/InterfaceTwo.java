@@ -19,12 +19,12 @@ class SmartPhone
 class ClassicPhone extends SmartPhone implements InterfaceTwo 
 {
 	@Override
-	public void dial() 
+	public void dial()
 	{
 		System.out.println("dialing number");
 	}
 	@Override
-	public void on() 
+	public void on()
 	{
 		System.out.println("ClassicPhone on");
 	}

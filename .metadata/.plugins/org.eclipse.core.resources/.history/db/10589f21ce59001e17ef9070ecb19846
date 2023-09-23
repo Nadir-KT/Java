@@ -1,0 +1,9 @@
+package com.java.Abstraction;
+//Abstraction is a process of hiding the implementation details and showing only functionality to the user
+public interface Abstraction //Abstraction is achieved using interface
+{
+	void changeGear(int g);
+	void speedUp(int s);
+	void applyBrake(int a);
+}
+class Bicycle implements Abstraction

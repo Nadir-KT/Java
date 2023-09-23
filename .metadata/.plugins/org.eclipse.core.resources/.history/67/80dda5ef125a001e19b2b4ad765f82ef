@@ -1,0 +1,10 @@
+package com.java.SingletonClass;
+//Singleton class: A class which has allows only one instance thought the execution
+public class SingletonClass 
+{
+	private static SingletonClass obj;
+	private SingletonClass()
+	{
+		
+	}
+}

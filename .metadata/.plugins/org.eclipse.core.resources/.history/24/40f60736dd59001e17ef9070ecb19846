@@ -1,0 +1,16 @@
+package com.java.Aggregation;
+
+public class child 
+{
+	int rollNo;
+	String name;
+	Aggregation adr;
+	public child(int rollNo, String name, Address adr) 
+	{
+		super();
+		this.rollNo = rollNo;
+		this.name = name;
+		this.adr = adr;
+	}
+	
+}

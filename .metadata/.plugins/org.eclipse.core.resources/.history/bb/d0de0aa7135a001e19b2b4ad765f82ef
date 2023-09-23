@@ -1,0 +1,27 @@
+package com.java.SingletonClass;
+//Singleton class: A class which has allows only one instance thought the execution
+public class SingletonClass 
+{
+	private static SingletonClass obj;
+	private SingletonClass()
+	{
+		
+	}
+	public static SingletonClass getInstance()
+	{
+		if(obj==null)
+			obj=new SingletonClass();
+		return obj;
+	}
+	public static void main(String[] args)
+	{
+		SingletonClass s1=SingletonClass.getInstance();
+		SingletonClass s2=SingletonClass.getInstance(); 
+		System.out.println(s1);
+		System.out.println(s2);
+	}
+}
+//How to create a Singleton Class:-
+//create a private constructor
+//create a private static variable of same class type
+//create a public static method which creates and returns a new instance of the same class for the first call and returns the same instance in the next call

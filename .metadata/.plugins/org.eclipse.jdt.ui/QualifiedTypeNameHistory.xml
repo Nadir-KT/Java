@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="com.java.FinalModifier.FinalModifier"/>
     <fullyQualifiedTypeName name="com.java.Upcasting.Upcasting"/>
     <fullyQualifiedTypeName name="com.java.Binding.Binding"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.java.Modifier.AbstractModifier"/>
     <fullyQualifiedTypeName name="com.java.Inheritance.stepFather"/>
     <fullyQualifiedTypeName name="com.java.Casting.DownCasting"/>
@@ -27,4 +26,9 @@
     <fullyQualifiedTypeName name="com.java.Inheritance.InterfaceTwo"/>
     <fullyQualifiedTypeName name="com.java.Inheritance.InterfaceThree"/>
     <fullyQualifiedTypeName name="com.java.Inheritance.SmartPhone"/>
+    <fullyQualifiedTypeName name="com.java.Abstraction.Abstraction"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.java.Aggregation.child"/>
 </qualifiedTypeNameHistroy>
