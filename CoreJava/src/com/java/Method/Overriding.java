@@ -15,6 +15,7 @@ class Dog extends Overriding
 
 class Snake extends Overriding
 {
+	@Override
 	void move()//super class method overriding
 	{
 		System.out.println("Snake moving");
@@ -23,7 +24,7 @@ class Snake extends Overriding
 /*Rules
 1.inheritance is must
 2.Method name, return type, argument must be same as super class method
-2.Don't use access modifiers that has less visibility than super class method
+3.Don't use access modifiers that has less visibility than super class method
 Visibility reduces from public->protected->default->private
-3.Cannot override private methods 
+4.Cannot override private methods 
 */

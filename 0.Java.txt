@@ -1,6 +1,6 @@
 IDE: Eclipse/NetBeans/IntelliJ
 Expire Date : 03 December 2023
-Total = 309 (or) 297 = 4 vids/day || Progress=297-48=253, Rewise=49to57,Days Remaining=SEP=30-17=13,OCT=31,NOV=30,DEC=3,Total=13+31+30+3=77, 253/77= 4 vids/day
+Total = 309 (or) 297 = 4 vids/day || Progress=297-51=253, Rewise=52to65,Days Remaining=SEP=30-24=6,OCT=31,NOV=30,DEC=3,Total=6+31+30+3=, 253/77= 4 vids/day
 Module-1 65 
 --------
 Setup

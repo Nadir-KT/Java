@@ -20,7 +20,6 @@
     <fullyQualifiedTypeName name="com.java.Polymorphism.Bike"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="com.java.ObjectClass.ToString"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.java.Inheritance.Interface"/>
     <fullyQualifiedTypeName name="com.java.Inheritance.Fan"/>
     <fullyQualifiedTypeName name="com.java.Inheritance.InterfaceTwo"/>
@@ -31,4 +30,5 @@
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.java.Aggregation.child"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
