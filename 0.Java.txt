@@ -1,11 +1,11 @@
 IDE: Eclipse/NetBeans/IntelliJ
 Expire Date : 03 December 2023
-Total = 309 (or) 297 = 4 vids/day || Progress=297-52=253, Rewise=53to65,Days Remaining=SEP=30-24=6,OCT=31,NOV=30,DEC=3,Total=6+31+30+3=, 253/77= 4 vids/day
-Module-1 65 
+Total = 309 (or) 297 = 4 vids/day || Progress=297-67=230, Days Remaining=SEP=30-25=5,OCT=31,NOV=30,DEC=3,Total=5+31+30+3=69, 230/69= 4 vids/day
+Module-1 65-52, Rewise=53to65
 --------
 Setup
 Datatypes
-Module-2 23
+Module-2 23-2, Rewise=1
 --------
 String
 Arrays
@@ -16,20 +16,28 @@ Swings
 Collection
 Exceptions
 Multi threading
-Front-end technologies
-----------------------
-HTML-11, CSS-23, JS-31, JQuery, Bootstrap
 Database technologies
 ---------------------
 MySQL - 18
+Front-end technologies
+----------------------
+HTML-11
+CSS-23
+JS-31
+JQuery, Bootstrap
 Web Applications
 ----------------
-Servlets-28, JSP, JDBC-5
+JDBC-5
+Servlets-28
+JSP
 JAVA Frameworks
 ---------------
-Hibernate-8+6
-Spring MVC-12+6
-Spring Boot-7+12
+Hibernate Module-1 8
+Hibernate Module-2 6
+Spring MVC Module-1 12
+Spring MVC Module-2 6
+Spring Boot Module-1 7
+Spring Boot Module-2 12
 
 Features of Java
 ----------------
