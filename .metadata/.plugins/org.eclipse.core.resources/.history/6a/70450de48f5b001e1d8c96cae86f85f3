@@ -1,0 +1,5 @@
+package com.java.Packages;
+//packages: it is a mechanism to encapsulate a group of classes, sub packages, and interfaces are used for preventing naming conflicts
+public class Packages {
+
+}
