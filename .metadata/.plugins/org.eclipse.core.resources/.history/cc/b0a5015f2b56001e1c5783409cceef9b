@@ -1,0 +1,5 @@
+package com.java.ObjectClass;
+// Object class is a default super most class in java
+public class ObjClass {
+
+}

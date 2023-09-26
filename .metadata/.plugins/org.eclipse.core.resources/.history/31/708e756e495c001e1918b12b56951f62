@@ -1,0 +1,13 @@
+package com.java.String;
+//Why String is immutable(value will not change)?
+//Mutable(value can be changed)
+public class Immutable
+{
+	public static void main(String[] args) 
+	{
+		String str="java";//Object creation, String is a class
+		String str1="java";
+		str=str.concat(" developer");//String addition and store as a new data in string pool
+		System.out.println(str);
+	}
+}

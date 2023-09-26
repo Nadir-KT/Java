@@ -1,0 +1,6 @@
+package com.java.String;
+//Why String is immutable(value will not change)?
+public class Immutable
+{
+	
+}

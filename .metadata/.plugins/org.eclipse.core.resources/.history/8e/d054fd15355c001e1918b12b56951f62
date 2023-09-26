@@ -1,0 +1,11 @@
+package com.java.String;
+
+import java.util.Scanner;
+
+public class Palindrome 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scn=new Scanner(System.in)
+	}
+}

@@ -1,0 +1,22 @@
+package com.java.Method;
+//Method Overriding:creating a non-static method in sub class with same signature as super class non-static method 
+public class Overriding {
+	void move()
+	{
+		System.out.println("Animal moving");
+	}
+
+}
+
+class Dog extends Overriding
+{
+	
+}
+
+class Snake extends Overriding
+{
+	void move()//super class method overriding
+	{
+		System.out.println("Snake moving");
+	}
+}

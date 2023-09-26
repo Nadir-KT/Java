@@ -1,0 +1,15 @@
+package com.java.String;
+
+import java.util.Scanner;
+
+public class removeFirstandLast {
+
+	public static void main(String[] args) {
+		Scanner scn=new Scanner(System.in);
+		System.out.println("enter your String");
+		String str=scn.nextLine();
+		System.out.println(str = str.substring(1, str.length() - 1));//substring(int beginIndex, int endIndex)
+
+	}
+
+}
