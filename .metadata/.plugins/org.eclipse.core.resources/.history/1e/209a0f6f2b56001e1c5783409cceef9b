@@ -1,6 +1,0 @@
-package com.java.ObjectClass;
-// Object class is a default super most class in java
-// Class by default extends Object from java.lang
-public class ObjClass extends Object{
-
-}

@@ -1,9 +1,0 @@
-package com.java.Method;
-
-public class Overriding {
-	void move()
-	{
-		System.out.println("Animal moving");
-	}
-
-}

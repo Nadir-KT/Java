@@ -30,7 +30,7 @@ class B extends Binding
 	{
 		System.out.println("test 1 in B");
 	}
-	static void test2()//Cannot override static, final, private methods, but can be overloaded 
+	static void test2()//static, final, private methods cannot be Override
 	{
 		System.out.println("static test 2 in B");
 	}
