@@ -13,7 +13,7 @@ public class BindingMain {
 	}
 	static void m0(Binding b1) {
 		b1.test1();//Late Binding//Runtime Polymorphism//Override methods works based on instance
-		Binding.test2();//b1.test2();//Early Binding//Compile time Polymorphism
+		Binding.test2();//b1.test2();//Early Binding//Compile time Polymorphism//Static Method should be accessed in static way
 	}
 }
 //static, final, private methods takes early binding
