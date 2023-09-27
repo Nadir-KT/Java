@@ -1,0 +1,5 @@
+package com.java.Array;
+
+public abstract class EvenOdd {
+
+}

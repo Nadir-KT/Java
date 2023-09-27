@@ -1,0 +1,11 @@
+package com.java.String;
+
+public class Mutable 
+{
+	public static void main(String[] args) 
+	{
+		// StringBuilder and StringBuffer classes are used to create mutable string objects
+		StringBuilder s1=new StringBuilder("StringBuilder");
+		s1
+	}
+}
