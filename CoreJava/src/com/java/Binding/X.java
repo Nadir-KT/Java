@@ -17,6 +17,7 @@ class Y extends X
 	{
 		return "c";
 	}
+	@Override
 	String m2()
 	{
 		return "d";
