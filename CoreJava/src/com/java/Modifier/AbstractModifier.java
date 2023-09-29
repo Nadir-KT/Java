@@ -5,7 +5,8 @@ public abstract class AbstractModifier
 	//abstract = not completed
 	//The abstract method can only be defined by an abstract class
 	//The method which is declared with abstract keyword and doesn't have any implementation is known as abstract method
-	abstract void on();
+	abstract void on();//abstract method ends with ; and declared with modifier abstract 
+	abstract void off(int a);
 	void m1()
 	{
 		//Concrete method
@@ -20,7 +21,35 @@ class BMW extends AbstractModifier//The sub class must implement the inherited a
 	void on() {
 		// TODO Auto-generated method stub
 	}
+
+	@Override
+	void off(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+	void Map()
+	{
+		//Concrete method
+	}
 }
 abstract class Ford extends AbstractModifier//Make sub class to abstract
 {
+}
+class Maruthi extends AbstractModifier
+{
+	@Override
+	void on() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void off(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+	void Music()
+	{
+		//Concrete method
+	}
 }
