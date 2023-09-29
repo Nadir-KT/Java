@@ -24,7 +24,7 @@ Database technologies
 MySQL - 18
 Front-end technologies
 ----------------------
-HTML-11-3, Rewise=1
+HTML-11-5, Rewise=1
 CSS-23
 JS-31
 JQuery, Bootstrap
