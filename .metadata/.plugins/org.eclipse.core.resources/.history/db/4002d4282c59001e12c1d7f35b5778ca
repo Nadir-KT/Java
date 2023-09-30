@@ -1,7 +1,0 @@
-package com.java.Inheritance;
-
-public interface Interface 
-{
-	public abstract void on();
-	void off();
-}

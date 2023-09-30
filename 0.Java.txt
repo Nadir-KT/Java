@@ -73,4 +73,3 @@ Use an executiin environment JRE: JavaSE - 1.8
 Open Prespective->No
 Package->Folder->Class
 Autofill=Ctrl+Space
-
