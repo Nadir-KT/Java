@@ -1,9 +1,6 @@
 IDE: Eclipse/NetBeans/IntelliJ
-Expire Date : 03 December 2023
-Total = 309 (or) 297 = 4 vids/day || Progress=297-67=230, Days Remaining=SEP=30-25=5,OCT=31,NOV=30,DEC=3,Total=5+31+30+3=69, 230/69= 4 vids/day
-CODING CHALLENGE: LOOPS, STRING, ARRAY, COLLECTIONS, SWINGS, MySQL, HTML, CSS, JS, JDBC, SERVLETS, HIBERNATE, ONLINE FILIM BOOKING, CORONA VIRUS TRACKING
 CODING COMPLETED: LOOPS, STRING, ARRAY,
-CODING REMAINING: COLLECTIONS, SWINGS, 
+CODING REMAINING: COLLECTIONS, SWINGS, MySQL, HTML, CSS[+SocialMedia], JS, JDBC[+ECom], SERVLETS, HIBERNATE, ECom-BOOKING, TRACKING SYSTEM
 Module-1 65-65, Rewise=55to65
 --------
 Setup
@@ -24,9 +21,9 @@ Database technologies
 MySQL - 18
 Front-end technologies
 ----------------------
-HTML-11
-CSS-23
-JS-31
+HTML-11-10, Rewise=1
+CSS-23-15
+JS-31-1
 JQuery, Bootstrap
 Web Applications
 ----------------
