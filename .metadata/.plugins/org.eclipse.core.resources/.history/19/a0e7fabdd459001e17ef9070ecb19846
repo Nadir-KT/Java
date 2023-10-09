@@ -1,7 +1,0 @@
-package com.java.Aggregation;
-
-public class Aggregation 
-{
-	//if a class has an another entity reference is called Aggregation
-	//it represents 'Has-a' relationship.
-}

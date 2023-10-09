@@ -1,5 +1,0 @@
-package com.java.String;
-//Why String is immutable in Java?
-public class Immutable {
-
-}

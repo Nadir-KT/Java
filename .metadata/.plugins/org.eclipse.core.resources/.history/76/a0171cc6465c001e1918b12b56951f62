@@ -1,7 +1,0 @@
-package com.java.String;
-//Why String is immutable(value will not change)?
-//Mutable(value can be changed)
-public class Immutable
-{
-	String str='java';//Object creation, String is a class
-}
