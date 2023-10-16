@@ -5,7 +5,7 @@ public class Rider
 	void ride(Bike b)
 	{
 		System.out.println("Executing ride with Bike arguments");
-		b.start();//RP
+		b.start();//RP - Runtime Polymorphism 
 	}
 	void ride(Pulsar b)
 	{

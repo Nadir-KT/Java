@@ -12,6 +12,3 @@ public class PolymorphismMain
 		r1.ride(b1);//CP
 	}
 }
-//Advantages
-//Reusability
-//Loose coupling
