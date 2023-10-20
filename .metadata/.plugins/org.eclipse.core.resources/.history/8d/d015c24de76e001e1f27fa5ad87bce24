@@ -12,6 +12,5 @@ public class EqualsMain {
 		//public boolean equals(Object args)//can be used to check non primitive based on properties
 		System.out.println(e1.equals(e2));//Reference
 		//non primitive
-		System.out.println(10==10);
 	}
 }

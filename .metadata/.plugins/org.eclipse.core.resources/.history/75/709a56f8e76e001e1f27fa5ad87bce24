@@ -14,7 +14,6 @@ public class Equals extends Object//By default all classes inherit object class
 	{
 		if(!(x instanceof Equals))
 		return false;
-		//return pages==((Equals)x).pages;//100==100
-		return (pages==((Equals)x).pages)&&(price==((Equals)x).price);//100==100
+		return pages==((Equals)x).pages;//100==100
 	}
 }
