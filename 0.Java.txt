@@ -1,7 +1,7 @@
 IDE: Eclipse/NetBeans/IntelliJ
-CODING COMPLETED: LOOPS, STRING, ARRAY,
-CODING REMAINING: COLLECTIONS, SWINGS[Finance App], MySQL, HTML, CSS[+SocialMedia], JS, JDBC[+ECom], SERVLETS, HIBERNATE, ECom-BOOKING, TRACKING SYSTEM
-Module-1 65-65, Rewise=57to65
+CODING COMPLETED: LOOPS, STRING, ARRAY, HTML,
+CODING REMAINING: COLLECTIONS, SWINGS[Finance App], MySQL, CSS[+SocialMedia], JS, JDBC[+ECom], SERVLETS, HIBERNATE, ECom-BOOKING, TRACKING SYSTEM
+Module-1 65-65, Rewise=59to65
 --------
 Setup
 Datatypes
@@ -21,9 +21,9 @@ Database technologies
 MySQL - 18
 Front-end technologies
 ----------------------
-HTML-11-10, Rewise=1
+HTML-11-11, Rewise=1
 CSS-23-15
-JS-31-5
+JS-31-27
 JQuery, Bootstrap
 Web Applications
 ----------------
