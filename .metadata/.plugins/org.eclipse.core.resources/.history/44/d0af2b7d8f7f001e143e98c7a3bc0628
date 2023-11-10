@@ -1,6 +1,6 @@
 package com.java.Packages;
 
-import java.util.Scanner;//Inbuilt package
+import java.util.Scanner;
 
 import com.java.String.Strings; //Import custom package
 

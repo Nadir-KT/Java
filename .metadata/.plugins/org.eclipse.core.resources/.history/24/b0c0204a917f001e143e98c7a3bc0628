@@ -10,7 +10,7 @@ public class Array
 		arr[0]=10;
 		arr[1]=21;
 		arr[2]=30;
-		System.out.println(arr);//Print address of the array
+		System.out.println(arr);
 		for(int i=0;i<number.length;i++)//i<=arr:ArrayIndexOutOfBoundsException
 		{
 			System.out.print(number[i]+"\t");

@@ -1,6 +1,6 @@
 package com.java.Packages;
 
-import java.util.Scanner;//Inbuilt package
+import java.util.Scanner;
 
 import com.java.String.Strings; //Import custom package
 
@@ -9,6 +9,6 @@ import com.java.String.Strings; //Import custom package
 public class Packages 
 {
 	public static void main(String[] args) {
-		new Strings();//Public can access outside packages
+		new Strings();
 	}
 }

@@ -5,7 +5,7 @@ Module-1 65-65, Rewise=59to65
 --------
 Setup
 Datatypes
-Module-2 23-7, Rewise=1,8to12
+Module-2 23-7, Rewise=8to12
 --------
 String
 Arrays
