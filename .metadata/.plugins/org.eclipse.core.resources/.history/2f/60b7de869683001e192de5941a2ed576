@@ -1,0 +1,11 @@
+package com.java.Array;
+
+public class Array2D {
+
+	public static void main(String[] args) {
+		// Multidimensional Array // 3*3 Matrix
+		int [][]Matrix=new int[3][3]
+		
+	}
+
+}

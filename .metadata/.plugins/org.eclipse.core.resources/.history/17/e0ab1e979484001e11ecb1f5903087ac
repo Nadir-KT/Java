@@ -1,0 +1,12 @@
+package com.java.ComparableIn;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ComparableOverride[]arr= {new ComparableOverride("java", 101),
+				new ComparableOverride("php", 210), new ComparableOverride("c", 180),
+				new ComparableOverride("android", 450), new ComparableOverride("java", 101)};
+	}
+
+}

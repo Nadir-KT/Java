@@ -1,0 +1,10 @@
+package com.java.ComparableIn;
+
+public class Comparable {
+
+	public static void main(String[] args) {
+		// Comparable
+		String []arr = {"c/c++","JS","Java","Python"}
+	}
+
+}

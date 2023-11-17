@@ -1,0 +1,10 @@
+package com.java.Array;
+
+public class Array2D {
+
+	public static void main(String[] args) {
+		// Multidimensional Array
+
+	}
+
+}

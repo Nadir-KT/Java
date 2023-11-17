@@ -1,0 +1,16 @@
+package com.java.ComparableIn;
+
+import java.util.Arrays;
+
+public class Comparable {
+
+	public static void main(String[] args) {
+		// Comparable // Method: Public int compareTo()
+		String []arr = {"C/C++","JS","Java","Python"};
+		Arrays.sort(arr);
+		for(String s:arr) {
+			System.out.println(s);
+		}
+	}
+
+}

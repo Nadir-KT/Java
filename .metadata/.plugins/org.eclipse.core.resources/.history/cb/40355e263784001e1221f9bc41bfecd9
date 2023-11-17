@@ -1,0 +1,11 @@
+package com.java.Array;
+
+public class BoxingUnboxing {
+
+	public static void main(String[] args) {
+		// Boxing: Automatic conversion of primitive data type into its equivalent wrapper class is known as Boxing.
+		// Unboxing: The opposite operation of Boxing.
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.java.Array;
+
+import java.util.Scanner;
+
+public class Array1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn=new Scanner(System.in);
+		System.out.println("Enter the size of an array");
+		int size=scn.nextInt();
+		int[]arr=new int[size];
+		System.out.println("Enter the elements");
+		for(int i=0;i<arr.length;i++)
+		{
+			arr[i]=scn.nextInt();
+		}
+		System.out.println("Arrary elements are:");
+		for(int a:arr) {
+			System.out.println(a);
+		}
+	}
+
+}

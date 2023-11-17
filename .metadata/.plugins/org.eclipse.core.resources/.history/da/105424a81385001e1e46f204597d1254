@@ -1,0 +1,19 @@
+package com.java.ComparableIn;
+
+public class ComparableOverride implements Comparable//17:12
+{
+		String title;
+		int pages;
+		public ComparableOverride(String title, int pages) {
+			super();
+			this.title = title;
+			this.pages = pages;
+		}
+		@Override
+		public String toString() {
+			return "ComparableOverride [title=" + title + ", pages=" + pages + "]";
+		}
+		public int compareTo(Object o) {
+			return 0;
+		}
+}
