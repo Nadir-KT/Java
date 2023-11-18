@@ -1,0 +1,10 @@
+package com.java.Exception;
+
+public class Exception {
+
+	public static void main(String[] args) {
+		// Exceptions - Runtime UnExpectated Results
+		System.out.println();
+	}
+
+}

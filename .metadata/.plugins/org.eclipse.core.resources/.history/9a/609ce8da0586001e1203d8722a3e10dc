@@ -1,0 +1,12 @@
+package com.java.Exception;
+
+public class Exception {
+
+	public static void main(String[] args) {
+		// Exceptions - Runtime UnExpectated Errors
+		int a=10;
+		int c=a/0;
+		System.out.println();
+	}
+
+}
