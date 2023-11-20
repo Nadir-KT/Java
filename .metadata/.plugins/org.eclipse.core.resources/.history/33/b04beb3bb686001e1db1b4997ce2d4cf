@@ -1,0 +1,17 @@
+package com.java.Exception;
+import java.io.IOException;
+//final keyword,finally block, finalize method
+public class FinallyBlock {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("main started");
+		try {
+			
+		} finally {
+			// TODO: handle finally clause
+		}
+		System.out.println("main ended");
+	}
+
+}

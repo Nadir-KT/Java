@@ -1,0 +1,45 @@
+package com.java.Exception;
+
+import java.util.Scanner;
+
+public class CustomExceptionsMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn=new Scanner(System.in);
+		String c="y";
+		CustomExceptions account=new CustomExceptions(5000);
+		do
+		{
+			System.out.println("1->Check Balance");
+			System.out.println("2->Cash Withdraw");
+			System.out.println("3->Pin Change");
+			int ch=scn.nextInt();
+			switch (ch) {
+			case 1:
+				account.getBalance();
+				break;
+			case 2:
+				System.out.println("Enter the amount");
+				double d=scn.nextDouble();
+				try {
+					account.withdraw(d);
+				} catch (CustomExceptionsOut e) {
+					System.out.println("Withdraw failure");// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				break;
+			case 3:
+				account.pinChange();
+				break;
+			default:
+				System.out.println("Invalid Option");
+				break;
+			}
+			System.out.println("Do you want to continue: y/n");
+			c=scn.next();
+		}while(c=="y");
+		System.out.println("Thank you");
+	}
+
+}

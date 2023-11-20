@@ -1,0 +1,13 @@
+package com.java.Exception;
+
+public class Checked_Unchecked {
+
+	public static void main(String[] args) {
+		/* Checked Exceptions: The classes that directly inherits the throwable class except Runtime Exceptions and errors.
+		 * Checked Exceptions are checked in compiler time and exception handler is mandatory for Checked Exceptions.
+		 * Unchecked Exceptions: The class that inherits the run time exceptions
+		 */
+
+	}
+
+}

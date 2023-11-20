@@ -1,0 +1,15 @@
+package com.java.Array;
+
+public class ArrayListImplimentation //Unlimited size & type
+{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Object[]arr=new Object[3]; // Object type: Unlimited type (both primitive & non primitive types)
+		int index=0;
+		public void add(Object elements) {
+			arr[index++]=elements;
+		}
+	}
+
+}

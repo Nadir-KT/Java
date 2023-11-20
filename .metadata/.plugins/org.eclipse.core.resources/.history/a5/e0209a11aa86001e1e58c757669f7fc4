@@ -1,0 +1,18 @@
+package com.java.Exception;
+
+import java.util.Scanner;
+
+public class CustomExceptionsMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn=new Scanner(System.in);
+		do
+		{
+			System.out.println("1->Check Balance");
+			System.out.println("1->Cash Withdraw");
+			System.out.println("1->Pin Change");
+		}while();
+	}
+
+}

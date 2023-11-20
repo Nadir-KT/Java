@@ -1,0 +1,46 @@
+package com.java.Array;
+
+import java.util.Arrays;
+
+public class ArrayListImplimentation //Unlimited size & type
+{
+	Object[]arr=new Object[3]; // Object type: Unlimited type (both primitive & non primitive types)
+	private int index=0;
+	public void add(Object elements) {
+		if(index>arr.length)
+			increase();
+		arr[index++]=elements;
+	}
+	public void increase() {
+		System.out.println("calling");
+		int newsize=arr.length+4;
+		Object[]newArr=new Object[newsize];
+		for(int i=0;i<arr.length;i++) {
+			newArr[i]=arr[i];
+		}
+		System.out.println(newArr.length);
+		arr=newArr;//Address of arr=newArr
+	}
+	public Object get(int getIndex) {
+		if(getIndex>=size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		return arr[getIndex];
+	}
+	public int size() {
+		return index;
+	}
+	//@Override
+	public String toString() {
+		if(index==0)
+			return "[]";
+		String s1="["+get(0);
+		for(int i=1;i<index;i++)
+		{
+			s1=s1+","+get(i);
+		}
+		s1=s1+"]";
+		return s1;
+	}
+	
+}

@@ -1,0 +1,34 @@
+package com.java.Exception;
+import java.io.IOException;
+//final keyword,finally block, finalize method
+public class FinallyBlock {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("main started");
+		try 
+		{
+			int a=10/0;
+		} 
+		catch (RuntimeException r) //multiple catch block is possible with different types of exceptions
+		{
+			// TODO: handle exception\
+			System.out.println("Executing ArrayStoreException catch block");
+		}
+		catch (Exception e) //multiple catch block is possible with different types of exceptions
+		{
+			// TODO: handle exception\
+			System.out.println("Executing Exception catch block");
+		}
+		finally // multiple finally is not allowed
+		{
+			// TODO: handle finally clause // finally block executes even there is an exception
+			System.out.println("finally block");
+			//Cleanup statements
+			//Closing database connection
+			//Closing files
+		}
+		System.out.println("main ended");
+	}
+
+}
