@@ -44,6 +44,6 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="com.java.Array.ArrayListImplimentation"/>
+    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
 </qualifiedTypeNameHistroy>

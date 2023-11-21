@@ -1,0 +1,38 @@
+package com.java.Array;
+
+public class LinkedList 
+{
+	private Node start;//start address
+	private Node last;//last address
+	private int count;
+	
+	public void add(Object ele) // For adding element
+	{
+		if (start==null) 
+		{
+			start=new Node(ele);
+			last=start;
+		}
+		last.next=new Node(ele);
+		last=last.next;
+	}
+	public int size() // For checking size
+	{
+		return count;
+	}
+	public Object get(int index) // For getting index
+	{
+		if(index>size())
+			throw new IndexOutOfBoundsException();
+	}
+	class Node {
+		Object element;
+		Node next; // address
+		Node(Object ele)
+		{
+			element=ele;
+			count++;
+		}
+	}
+
+}

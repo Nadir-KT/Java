@@ -1,0 +1,18 @@
+package com.java.Array;
+
+public class LinkedList 
+{
+	private Node start;
+	private Node last;
+	private int count;
+	
+	class Node {
+		Object element;
+		Node next;
+		Node(Object ele)
+		{
+			element=ele;
+		}
+	}
+
+}

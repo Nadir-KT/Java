@@ -1,0 +1,26 @@
+package com.java.Array;
+
+public class LinkedList 
+{
+	private Node start;
+	private Node last;
+	private int count;
+	
+	public void add(Object ele)
+	{
+		if (start==null) 
+		{
+			start=new Node(ele);
+		}
+	}
+	
+	class Node {
+		Object element;
+		Node next;
+		Node(Object ele)
+		{
+			element=ele;
+		}
+	}
+
+}
