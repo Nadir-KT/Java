@@ -1,0 +1,20 @@
+package com.java.Collections;//3:17
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListIn {
+
+	public static void main(String[] args) {
+		/* List: ArrayList, LinkedList, Vector
+		 * Queue:
+		 * Set:
+		 */
+		List l1=new ArrayList();//UpCating //Subclass(ArrayList) instance to SuperType(List)
+		l1.add(25);
+		l1.add(25);
+		l1.add(25);
+		l1.add(25);
+	}
+
+}

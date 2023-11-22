@@ -4,7 +4,7 @@ public class LinkedListMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LinkedList l1=new LinkedList();
+		LinkedListMethod l1=new LinkedListMethod();
 		l1.add(25);
 		l1.add(350);
 		l1.add("java");
