@@ -47,4 +47,5 @@
     <fullyQualifiedTypeName name="com.java.Array.ArrayListImplimentation"/>
     <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
