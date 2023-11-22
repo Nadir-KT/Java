@@ -8,11 +8,11 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
-		Compare []arr= { new Compare("Jon",1001, 2003),
-				new Compare("alison",1002, 2010),
-				new Compare("ruth",1005, 2020),
-				new Compare("ali",99, 1970),
-				new Compare("khan",78, 1967)};
+		Compare []arr= { new Compare("jon",1001, 2003),//Case Sensitive
+				new Compare("alison",1002, 2010),//Case Sensitive
+				new Compare("ruth",1005, 2020),//Case Sensitive
+				new Compare("ali",99, 1970),//Case Sensitive
+				new Compare("khan",78, 1967)};//Case Sensitive
 		System.out.println("Sorting based on");
 		String by=scn.nextLine();
 		if(by.equalsIgnoreCase("name"));//Ignore Case Sensitive
