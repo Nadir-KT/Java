@@ -1,0 +1,13 @@
+package com.java.Collections;
+
+import java.util.HashSet;
+
+public class Set {
+
+	public static void main(String[] args) {
+		// Set: HashSet, LinkedHashSet, TreeSet
+		// Set is a group of unique elements. which doesn't allows to store duplicate items.
+		HashSet s1=new HashSet();
+	}
+
+}

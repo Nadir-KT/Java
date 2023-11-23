@@ -1,0 +1,10 @@
+package com.java.Collections;
+
+public class Set {
+
+	public static void main(String[] args) {
+		// Set: HashSet, LinkedHashSet, 
+
+	}
+
+}
