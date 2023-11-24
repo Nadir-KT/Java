@@ -1,0 +1,5 @@
+package com.java.Collections;
+
+public interface Interface {
+	void m1();
+}

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.java.ReturnObject.BookCreator"/>
-    <fullyQualifiedTypeName name="com.java.inheritance.iphone"/>
-    <fullyQualifiedTypeName name="com.java.inheritance.Phone"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="com.java.Constructor.ConstructorChaining"/>
     <fullyQualifiedTypeName name="com.java.Method.Overriding"/>
@@ -46,7 +43,6 @@
     <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.java.Array.LinkedList"/>
-    <fullyQualifiedTypeName name="com.java.PrintSystem.SystemOut"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
@@ -54,5 +50,14 @@
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="com.java.PrintSystem.SystemOut"/>
+    <fullyQualifiedTypeName name="com.java.Collections.Classes.A"/>
+    <fullyQualifiedTypeName name="com.java.Collections.I"/>
+    <fullyQualifiedTypeName name="com.java.Collections.Abstract"/>
+    <fullyQualifiedTypeName name="com.java.Collections.Interface"/>
+    <fullyQualifiedTypeName name="java.lang.InternalError"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
 </qualifiedTypeNameHistroy>

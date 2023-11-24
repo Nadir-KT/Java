@@ -1,0 +1,12 @@
+package com.java.Collections;
+
+public class ClassesMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Classes a=new Classes(20);
+		Classes.A a1=a.new A();
+		a1.display();
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.java.Collections;
+
+public class MapInterface {
+
+	public static void main(String[] args) {
+		// Map is a group of key and value pairs
+
+	}
+
+}
