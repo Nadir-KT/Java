@@ -1,0 +1,17 @@
+package com.java.Collections;
+
+import java.util.ArrayList;
+
+public class Generics {
+
+	public static void main(String[] args) {
+		/* Generic: generic is a non-primitive type, provided at run time.
+		 * Advantage of Generics:-
+		 * 1. Type-Safety
+		 * 2. Type Casting is not required
+		 * 3. Compile time safety
+		 */
+		ArrayList<String> a1=new ArrayList<String>();//<Generics>
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.java.Collections;//4:46
+
+import java.util.ArrayList;
+
+public class Iterator {
+
+	public static void main(String[] args) {
+		/* java.util.Iterator
+		 * public Object next()
+		 * public boolean hasNext()
+		 * public void remove()
+		 */
+		ArrayList<Object> a1=new ArrayList<Object>();
+		a1.add("java");
+		a1.add("c++");
+		a1.add("python");
+		a1.add("php");
+		System.out.println(a1);
+		for(int i=0;i<a1.size();i++) {
+			System.out.println(a1.get(i));
+		}
+	}
+
+}
