@@ -2,7 +2,6 @@ package com.java.Collections; //10:23
 
 import java.util.HashMap;
 import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.TreeMap;
 
@@ -65,14 +64,6 @@ public class MapInterface {
 		// public int size()
 		System.out.println(m4.size());
 		// public Object keySet()
-		System.out.println(m4.keySet());
-		
-		Iterator<String> itr=m4.keySet().iterator();
-		while(itr.hasNext()) {
-			String key=itr.next();
-			int val=m4.get(key);
-			System.out.println(key + " = "+val);
-		}
 	}
 
 }
