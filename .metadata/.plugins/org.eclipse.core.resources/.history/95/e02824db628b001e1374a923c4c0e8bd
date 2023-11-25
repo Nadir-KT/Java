@@ -1,0 +1,9 @@
+package com.java.MultiThreading;
+
+public class PrintChars extends Thread
+{
+	@Override
+	public void run() {
+		
+	}
+}

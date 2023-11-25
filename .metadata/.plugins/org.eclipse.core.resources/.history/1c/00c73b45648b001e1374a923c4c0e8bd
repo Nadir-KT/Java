@@ -1,0 +1,9 @@
+package com.java.MultiThreading;
+
+public class PrintNumbers {
+	public static void main(String[] args) {
+		System.out.println("main started");
+		Thread t1=new PrintChars();
+	}
+
+}

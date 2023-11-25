@@ -1,0 +1,60 @@
+package com.java.MultiThreading;
+
+public class MultiThreading extends Thread {
+	//public void run()
+	public void run() {
+		for(int i=1;i<=5;i++) {
+			//public static Thread currentThread()
+			//public void getName() – It returns the name of the thread.
+			System.out.println(Thread.currentThread().getName());
+			System.out.println(i);
+		}
+		try {
+			//public static sleep() – Stop the thread for the specified time.
+			Thread.sleep(200);
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e);
+		}
+	}
+	public static void main(String[] args) {
+		/* MultiThreading: Executing multiple programs concurrently
+		 * Thread: Independent path of execution
+		 * MultiThreading Creation:- 
+		 * 1. by overriding run() of Thread class
+		 * 2. by implementing run() of java.lang.Runnable Interface
+		 * Default Threads:-
+		 * 1. Main Thread (User Thread / non Daemon Thread) // JRE
+		 * 2. Garbage Collector Thread // protected Object finalize() // Automatic (Daemon Thread)
+		 * 3. Thread Scheduler
+		 */
+		/* Methods of ThreadClass
+		 * public void notify()
+		 * public void notifyAll()
+		 * public void wait()
+		 * public void getPriority() – It returns the priority of the thread.
+		 * public void isAlive() – Check if the thread is alive.
+		 */
+		MultiThreading t1=new MultiThreading();
+		MultiThreading t2=new MultiThreading();
+		MultiThreading t3=new MultiThreading();
+		try {
+			//public void join() // wait for a thread to die
+			t1.join();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		System.out.println(t1.getName());
+		//public long getId()
+		System.out.println(t1.getId());
+		//public void start() – Starts the thread.
+		t1.start();
+		t2.start();
+		t3.start();
+		//public void interrupt()
+		t1.interrupt();
+		//public void stop()
+		t2.stop();
+	}
+
+}

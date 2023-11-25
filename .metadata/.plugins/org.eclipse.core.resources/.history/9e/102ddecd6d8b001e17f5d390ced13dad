@@ -1,0 +1,18 @@
+package com.java.MultiThreading;
+
+public class MultiThreading {
+
+	public static void main(String[] args) {
+		/* MultiThreading: Executing multiple programs concurrently
+		 * Thread: Independent path of execution
+		 * MultiThreading Creation:- 
+		 * 1. by overriding run() of Thread class
+		 * 2. by implementing run() of java.lang.Runnable Interface
+		 * Number of Threads
+		 * 1. Main Thread
+		 * 2. Garbage Collector Thread
+		 */
+
+	}
+
+}
