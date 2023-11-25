@@ -1,0 +1,22 @@
+package com.java.Collections;
+
+import java.util.HashMap;
+
+public class MapInterface {
+
+	public static void main(String[] args) {
+		// Map is a group of key and value pairs
+		// public Object get(Object key)
+		// public int size()
+		// public Object keySet()
+		HashMap<String, Integer> m1=new HashMap<String, Integer>();
+		// public Object put(Object key, Object value)
+		m1.put("java", 25);
+		m1.put("php", 15);
+		m1.put("android", 35);
+		m1.put("c", 40);
+		m1.put("sql", 18);
+		m1.put("asp", 32);
+	}
+
+}
