@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.java.Method.Snake"/>
-    <fullyQualifiedTypeName name="com.java.Method.Over_riding"/>
-    <fullyQualifiedTypeName name="com.java.FinalModifier.FinalModifier"/>
     <fullyQualifiedTypeName name="com.java.Upcasting.Upcasting"/>
     <fullyQualifiedTypeName name="com.java.Binding.Binding"/>
     <fullyQualifiedTypeName name="com.java.Modifier.AbstractModifier"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.java.MultiThreading.PrintChars"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.java.MultiThreading.Sleep"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

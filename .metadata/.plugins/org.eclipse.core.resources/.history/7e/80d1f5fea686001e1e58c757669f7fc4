@@ -1,7 +1,0 @@
-package com.java.Exception;
-
-public class CustomExceptionsMain {
-	public CustomExceptionsMain() {
-		System.out.println("Less Balance");
-	}
-}

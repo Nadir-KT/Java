@@ -7,6 +7,7 @@ public class ThreadCreation implements Runnable
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
+		System.out.println("Priority = "+Thread.currentThread().getPriority());
 		System.out.println("Run method of Print characters started");
 		for(char c='a';c<='z';c++) {
 			System.out.println(c);
@@ -20,7 +21,9 @@ public class ThreadCreation implements Runnable
 		//t1.start();
 		Runnable t1=new ThreadCreation();
 		Thread t2=new Thread(t1);
+		t2.setPriority(Thread.MAX_PRIORITY);
 		t2.start();
+		System.out.println("Priority = "+Thread.currentThread().getPriority());
 		for(int i=1;i<=20;i++) {
 			System.out.println(i);
 		}

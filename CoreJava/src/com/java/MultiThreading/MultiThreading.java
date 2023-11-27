@@ -1,4 +1,4 @@
-package com.java.MultiThreading;//9:08
+package com.java.MultiThreading;//17:05
 /* A Thread can be created in Java in the following ways:
  * 1. By Extending Thread class
  * 2. Implementing Runnable interface
@@ -10,8 +10,8 @@ public class MultiThreading extends Thread {
 		System.out.println("Run method started");
 		for(int i=1;i<=5;i++) {
 			//public static Thread currentThread()
-			//public void getName() – It returns the name of the thread.
 			System.out.println(Thread.currentThread().getName());
+			System.out.println("Current Priority = "+Thread.currentThread().getPriority());
 			System.out.println(i);
 		}
 		try {
@@ -48,7 +48,6 @@ public class MultiThreading extends Thread {
 		 * public void notifyAll()
 		 * public void wait()
 		 * public void getState() – It returns the state of the thread.
-		 * public void getPriority() – It returns the priority of the thread.
 		 * final boolean isAlive() – Check if the thread is alive.
 		 */
 		MultiThreading t1=new MultiThreading();
@@ -60,7 +59,10 @@ public class MultiThreading extends Thread {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
+		//public void getName() – It returns the name of the thread.
 		System.out.println(t1.getName());
+		//public void getPriority() – It returns the priority of the thread.
+		System.out.println("Current Priority = "+Thread.currentThread().getPriority());
 		//public long getId()
 		System.out.println(t1.getId());
 		//public void start() – Starts the thread.
@@ -72,6 +74,17 @@ public class MultiThreading extends Thread {
 		//public void stop()
 		t2.stop();
 		System.out.println("main ended");
+		/* Thread Scheduling & Thread Priority
+		 * Fixed Priority Algorithms
+		 * FIFO
+		 */
+		t1.setPriority(MAX_PRIORITY);
+		//public final void setPriority(int newPriority)
+		System.out.println("Thread Priority = "+t1.getPriority());
 	}
+	//Constants for Thread Priority
+	public final static int MIN_PRIORITY=1;
+	public final static int NORM_PRIORITY=5;
+	public final static int MAX_PRIORITY=10;
 
 }
