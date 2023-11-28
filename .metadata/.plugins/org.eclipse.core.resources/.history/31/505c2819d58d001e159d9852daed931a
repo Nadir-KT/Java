@@ -1,0 +1,10 @@
+package com.java.Files;
+
+public class Files {
+	//The File class is an abstract representation of file and directory pathname. A pathname can be either absolute or relative.
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

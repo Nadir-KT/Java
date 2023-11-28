@@ -6,15 +6,15 @@ public class MultipleInheritance
 	//GeneticFather
 	void m1() {}
 	public static void main(String[] args) {
-		child c1=new child();
-		c1.m1();
+		//child c1=new child();
+		//c1.m1();
 	}
 }
 class stepFather
 {
 	void m1() {}
 }
-class child extends stepFather,MultipleInheritance
+/* class child extends stepFather,MultipleInheritance
 {
 	//Diamond Problem: Confusion on which m1() to inherit
-}
+} */
