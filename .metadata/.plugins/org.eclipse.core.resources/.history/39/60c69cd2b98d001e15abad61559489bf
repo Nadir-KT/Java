@@ -1,0 +1,33 @@
+package com.java.LambdaExpression;
+
+public class Lambda {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A obj;
+		//obj=new xyz();
+		obj=new A() // Anonymous inner type
+		{
+			
+			@Override
+			public void show() {
+				// TODO Auto-generated method stub
+				System.out.println("Hai");
+			}
+		};
+		obj.show();
+	}
+
+}
+// Functional Interface: An interface which has only one abstract method
+@FunctionalInterface
+interface A
+{
+	void show();//Abstract method: Method without implementation
+}
+class xyz implements A{
+	@Override
+	public void show() {
+		System.out.println("Hai");
+	}
+}

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.java.Binding.Binding"/>
-    <fullyQualifiedTypeName name="com.java.Modifier.AbstractModifier"/>
-    <fullyQualifiedTypeName name="com.java.Inheritance.stepFather"/>
     <fullyQualifiedTypeName name="com.java.Casting.DownCasting"/>
     <fullyQualifiedTypeName name="com.java.Polymorphism.Bike"/>
     <fullyQualifiedTypeName name="com.java.ObjectClass.ToString"/>
@@ -18,7 +15,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.java.ComparableIn.ComparableOverride"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="com.java.ComparatorIn.LengthCount"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -31,7 +27,6 @@
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="com.java.Array.ArrayListImplimentation"/>
     <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.java.Array.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
@@ -46,7 +41,6 @@
     <fullyQualifiedTypeName name="com.java.Collections.Abstract"/>
     <fullyQualifiedTypeName name="com.java.Collections.Interface"/>
     <fullyQualifiedTypeName name="java.lang.InternalError"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -58,6 +52,12 @@
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="com.java.MultiThreading.Sleep"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.java.MultiThreading.InterThreadCom"/>
+    <fullyQualifiedTypeName name="com.java.MultiThreading.DeadLock"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.java.LambdaExpression.A"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
