@@ -44,9 +44,6 @@ public class MultiThreading extends Thread {
 		 * 5. Dead: A thread dies naturally when the run() method exits. We can use stop() method to forcefully kill a thread.
 		 */
 		/* Methods of ThreadClass
-		 * public void notify()
-		 * public void notifyAll()
-		 * public void wait()
 		 * public void getState() – It returns the state of the thread.
 		 * final boolean isAlive() – Check if the thread is alive.
 		 */

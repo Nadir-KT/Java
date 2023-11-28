@@ -1,0 +1,58 @@
+package com.java.MultiThreading;
+
+public class DeadLock {
+	/* Deadlock describes a situation where two or more threads are blocked forever, waiting for each other.
+	 * In concurrent computing, deadlock is any situation in which no member of some group of entities can proceed because each waits for another member, including itself, to take action, such as sending a message or, more commonly, releasing a lock.
+	 * A deadlock occurs when a process or thread enters a waiting state because a requested system resource is held by another waiting process, 
+	 * which in turn is waiting for another resource held by another waiting process. 
+	 * If a process remains indefinitely unable to change its state because resources requested by it are being used by another process that itself is waiting, 
+	 * then the system is said to be in a deadlock.
+	 * In a communications system, deadlocks occur mainly due to loss or corruption of signals rather than contention for resources.
+	 * A Deadlock is a situation where each of the computer process waits for a resource which is being assigned to some another process. 
+	 * In this situation, none of the process gets executed since the resource it needs, is held by some other process which is also waiting for some other resource to be released.
+	 * A deadlock is a situation in which more than one process is blocked because it is holding a resource and also requires some resource that is acquired by some other process. 
+	 * Therefore, none of the processes gets executed.
+	 * A deadlock is a situation where a minimum of two threads are holding the lock on some different resource, and both are waiting for the other’s resource to complete its task. 
+	 * And, none is able to leave the lock on the resource it is holding.
+	 */
+	String s1="Resource 1";
+	String s2="Resource 2";
+	
+	Thread t0=new Thread() {
+		@Override
+		public void run() {
+			synchronized (s1) {
+				try {
+					System.out.println(Thread.currentThread().getName()+" locked "+s1);
+					Thread.sleep(100);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				synchronized (s2) {
+					System.out.println(Thread.currentThread().getName()+" locked "+s2);
+					System.out.println(s1+" "+s2);
+				}
+			}
+		}
+	};
+	
+	Thread t1=new Thread() {
+		@Override
+		public void run() {
+			synchronized (s2) {
+				System.out.println(Thread.currentThread().getName()+" locked "+s2);
+				synchronized (s1) {
+					System.out.println(Thread.currentThread().getName()+" locked "+s1);
+					System.out.println(s1+" "+s2);
+				}
+			}
+		}
+	};
+	//The pattern of accessing the resources 1 and 2, is main issue. So, to solve it, re-order the statements where the code is accessing shared resources.
+	public static void main(String[] args) {
+		DeadLock d1=new DeadLock();
+		d1.t0.start();
+		d1.t1.start();
+	}
+}
