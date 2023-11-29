@@ -55,6 +55,11 @@ public class Files {
 			//public boolean isHidden(): Tests whether the file named by this abstract pathname is a hidden file.
 			System.out.println(d.getName()+" "+d.length()+"Bytes: Read="+d.canRead()+",Write="+d.canWrite()+",Hidden="+d.isHidden());
 		}
+		
+		//input/output/error
+		System.out.println("Out");
+		System.err.println("Error");
+		System.out.println("Files.main()");
 	}
 
 }
