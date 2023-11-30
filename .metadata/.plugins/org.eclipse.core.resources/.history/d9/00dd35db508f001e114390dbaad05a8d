@@ -1,0 +1,36 @@
+package com.java.GUI.AWT;
+
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+//Event Classes & Listener Interface
+public class EventHandling extends Frame implements ActionListener{
+	//java.awt.event
+	//Register the Component with the Listener
+	//Button
+	//public void addActionListenener(ActionListener a)
+	//TextField
+	//public void addTextListner(TextListener a)
+	//checkBox
+	//public void addItemListener(ItemListener a)
+	TextField t;
+	Button b;
+	public EventHandling() {
+		//Create components
+		t=new TextField();
+		t.setBounds(60, 50, 80, 30);
+		b=new Button("Click Here");
+		t.setBounds(100, 120, 80, 50);
+		//Register the Component with the Listener
+		b.
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+}

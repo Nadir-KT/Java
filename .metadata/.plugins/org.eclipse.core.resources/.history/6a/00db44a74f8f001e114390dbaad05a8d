@@ -1,0 +1,12 @@
+package com.java.GUI.AWT;
+//Event Classes & Listener Interface
+public class EventHandling {
+	//java.awt.event
+	//Register the Component with the Listener
+	//Button
+	//public void addActionListenener(ActionListener a)
+	//TextField
+	//public void addTextListner(TextListener a)
+	//checkBox
+	//public void addItemListener(ItemListener a)
+}
