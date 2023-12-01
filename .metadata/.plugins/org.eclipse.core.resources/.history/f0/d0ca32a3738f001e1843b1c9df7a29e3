@@ -1,0 +1,45 @@
+package com.java.GUI.AWT;
+
+import java.awt.Button;
+import java.awt.Checkbox;
+import java.awt.Frame;
+import java.awt.Label;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+//Label CheckBox
+public class Components extends Frame implements ActionListener {
+	Label l1;
+	Label l2;
+	public Components() {
+		TextField t=new TextField();
+		t.setBounds(60, 50, 180, 30);
+		Button b=new Button("Click Here");
+		b.setBounds(100, 120, 80, 50);
+		l1=new Label("First name");
+		l2=new Label("Second name");
+		l1.setBounds(50, 100, 100, 50);
+		l2.setBounds(50, 150, 100, 50);
+		Checkbox c1=new Checkbox("C++");
+		c1.setBounds(50, 100, 100, 50);
+		Checkbox c2=new Checkbox("C++");
+		b.addActionListener(this);
+		add(l1);
+		add(l2);
+		add(b);
+		setSize(400, 400);
+		setLayout(null);
+		setVisible(true);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Components();
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		l1.setText("Action");
+	}
+
+}
