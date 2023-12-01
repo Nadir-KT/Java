@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="com.java.Array.ArrayListImplimentation"/>
-    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="com.java.Array.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
@@ -51,7 +44,6 @@
     <fullyQualifiedTypeName name="com.java.GUI.AWT.Components"/>
     <fullyQualifiedTypeName name="java.awt.event.ItemListener"/>
     <fullyQualifiedTypeName name="com.java.GUI.AWT.CheckBoxGroup"/>
-    <fullyQualifiedTypeName name="java.awt.Frame"/>
     <fullyQualifiedTypeName name="java.awt.CheckboxGroup"/>
     <fullyQualifiedTypeName name="java.awt.Checkbox"/>
     <fullyQualifiedTypeName name="java.awt.Label"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.awt.Frame"/>
+    <fullyQualifiedTypeName name="java.awt.Canvas"/>
+    <fullyQualifiedTypeName name="java.awt.Graphics"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.awt.Scrollbar"/>
+    <fullyQualifiedTypeName name="java.awt.MenuBar"/>
+    <fullyQualifiedTypeName name="java.awt.Menu"/>
+    <fullyQualifiedTypeName name="java.awt.MenuItem"/>
 </qualifiedTypeNameHistroy>
