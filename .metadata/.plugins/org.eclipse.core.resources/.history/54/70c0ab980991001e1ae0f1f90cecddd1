@@ -1,0 +1,60 @@
+package com.java.GUI.AWT;
+
+import java.awt.Color;
+import java.awt.Frame;
+import java.awt.Graphics;
+import java.awt.Label;
+import java.awt.TextArea;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionListener;
+
+public class Listeners implements MouseMotionListener, KeyListener {
+	Frame f;
+	Label l;
+	TextArea t;
+	public Listeners( ) {
+		f=new Frame("MouseMotion KeyListner WindowListner");
+		
+		f.addMouseMotionListener(this);
+		
+		l=new Label();
+		l.setBounds(20, 50, 100, 25);
+		t=new TextArea();
+		t.setBounds(25, 0, 0, 0);
+		f.setSize(400, 400);
+		f.setLayout(null);
+		f.setVisible(true);
+	}
+	public static void main(String[] args) {
+		new Listeners();
+	}
+	@Override
+	public void mouseDragged(MouseEvent e) {
+		Graphics g=f.getGraphics();
+		g.setColor(Color.green);
+		g.fillOval(e.getX(), e.getY(), 15, 15);//fillOval(int x, int y, int width, int height)
+	}
+	@Override
+	public void mouseMoved(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void keyTyped(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void keyPressed(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void keyReleased(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.java.GUI.AWT;
+
+import java.awt.Frame;
+
+public class Listeners {
+	public Listeners( ) {
+		Frame f=new Frame("MouseMotion ");
+		f.setSize(400, 400);
+		f.setLayout(null);
+		f.setVisible(true);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
