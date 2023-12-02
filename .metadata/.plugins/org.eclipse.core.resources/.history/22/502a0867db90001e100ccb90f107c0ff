@@ -1,0 +1,57 @@
+package com.java.GUI.AWT;
+
+import java.awt.Frame;
+import java.awt.MenuItem;
+import java.awt.PopupMenu;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+public class Popup implements MouseListener {
+	public Popup() {
+		Frame f=new Frame("PopupMenu");
+		PopupMenu pMenu=new PopupMenu("Click");
+		MenuItem m1=new MenuItem("Edit");
+		m1.setActionCommand("Edit");//Sets the command name of the action event that is fired by this menu item.
+		MenuItem m2=new MenuItem("Cut");
+		m2.setActionCommand("Cut");
+		MenuItem m3=new MenuItem("Copy");
+		m3.setActionCommand("Copy");
+		pMenu.add(m1);
+		pMenu.add(m2);
+		pMenu.add(m3);
+		f.add(pMenu);
+		f.addMouseListener(this);
+		f.setSize(400, 400);
+		f.setLayout(null);
+		f.setVisible(true);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mousePressed(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseReleased(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseEntered(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseExited(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+}

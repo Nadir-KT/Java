@@ -40,10 +40,7 @@ public class Popup implements MouseListener {
 		Button b2=new Button("Cancel");
 		b2.setBounds(50, 100, 50, 50);
 		b2.setBackground(Color.red);
-		p.add(b1);
-		p.add(b2);
-		f.add(p);
-		
+		p.add(b1,b2);
 		f.setSize(400, 400);//Resizes this component so that it has width width and height height
 		f.setLayout(null);
 		f.setVisible(true);

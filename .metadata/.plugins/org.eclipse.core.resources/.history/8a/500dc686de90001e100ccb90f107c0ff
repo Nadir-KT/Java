@@ -1,6 +1,5 @@
 package com.java.GUI.AWT;
 
-import java.awt.Button;
 import java.awt.Color;
 import java.awt.Frame;
 import java.awt.MenuItem;
@@ -34,15 +33,6 @@ public class Popup implements MouseListener {
 		Panel p=new Panel();
 		p.setBounds(40, 80, 200, 200);
 		p.setBackground(Color.gray);//Sets the background color of this component. 
-		Button b1=new Button("Save");//Constructs a button with the specified label.
-		b1.setBounds(50, 100, 50, 50);
-		b1.setBackground(Color.green);
-		Button b2=new Button("Cancel");
-		b2.setBounds(50, 100, 50, 50);
-		b2.setBackground(Color.red);
-		p.add(b1);
-		p.add(b2);
-		f.add(p);
 		
 		f.setSize(400, 400);//Resizes this component so that it has width width and height height
 		f.setLayout(null);

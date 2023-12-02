@@ -42,8 +42,6 @@ public class Popup implements MouseListener {
 		b2.setBackground(Color.red);
 		p.add(b1);
 		p.add(b2);
-		f.add(p);
-		
 		f.setSize(400, 400);//Resizes this component so that it has width width and height height
 		f.setLayout(null);
 		f.setVisible(true);
