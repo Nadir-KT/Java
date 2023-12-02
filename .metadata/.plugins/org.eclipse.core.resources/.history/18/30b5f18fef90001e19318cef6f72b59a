@@ -1,0 +1,15 @@
+package com.java.GUI.AWT;
+
+import java.awt.Frame;
+
+public class DialogBox {
+	Frame f;
+	public DialogBox() {
+		f=new Frame("DialogBox");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

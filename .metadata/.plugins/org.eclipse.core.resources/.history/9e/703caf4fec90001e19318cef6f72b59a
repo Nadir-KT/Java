@@ -2,19 +2,14 @@ package com.java.GUI.AWT;//19:50
 
 import java.awt.Button;
 import java.awt.Color;
-import java.awt.Dialog;
-import java.awt.FlowLayout;
 import java.awt.Frame;
-import java.awt.Label;
 import java.awt.MenuItem;
 import java.awt.Panel;
 import java.awt.PopupMenu;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class Popup implements MouseListener, ActionListener {
+public class Popup implements MouseListener {
 	Frame f;
 	PopupMenu pMenu;
 	public Popup() {
@@ -49,31 +44,12 @@ public class Popup implements MouseListener, ActionListener {
 		p.add(b2);
 		f.add(p);
 		
-		Dialog d=new Dialog(f, "Confirmation", true);//Dialog(Frame owner, String title, boolean modal)
-		//Dialog() Constructs an initially invisible Dialog with the specified owner Frame, title and modality.
-		d.setLayout(new FlowLayout());
-		Button b3=new Button("Yes");
-		b3.setBackground(Color.green);
-		Button b4=new Button("No");
-		b4.setBackground(Color.green);
-		d.add(new Label("Do you want to overwrite existing files?"));
-		d.add(b3);
-		d.add(b4);
-		d.setVisible(true);
-		d.setSize(200, 200);
-		d.setBackground(Color.white);
-		
 		f.setSize(400, 400);//Resizes this component so that it has width width and height height
 		f.setLayout(null);
 		f.setVisible(true);
 	}
 	public static void main(String[] args) {
 		new Popup();
-	}
-	@Override
-	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
-		
 	}
 	@Override
 	public void mouseClicked(MouseEvent e) {
