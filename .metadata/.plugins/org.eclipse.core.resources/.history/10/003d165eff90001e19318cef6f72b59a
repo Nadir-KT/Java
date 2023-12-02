@@ -27,6 +27,7 @@ public class DialogBox implements ActionListener {
 		d.add(b2);
 		d.setSize(400, 100);
 		d.setVisible(true);
+		d.setBackground(Color.black);
 	}
 	public static void main(String[] args) {
 		new DialogBox();
