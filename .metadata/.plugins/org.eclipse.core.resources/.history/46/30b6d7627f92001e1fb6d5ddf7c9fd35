@@ -1,0 +1,19 @@
+package com.java.GUI.Swings;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Components2 {
+
+	public static void main(String[] args) {
+		// JPasswordField JCheckBox JRadioButton JComboBox 
+		JFrame f=new JFrame("JFrame");//Constructs a new frame that is initially invisible. 
+		
+		JLabel l=new JLabel();
+		
+		f.setSize(400, 500);
+		f.setLayout(null);
+		f.setVisible(true);
+	}
+
+}

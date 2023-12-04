@@ -1,5 +1,0 @@
-package com.java.MultiThreading;
-
-public class Thread1 extends Thread {
-
-}

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="com.java.PrintSystem.SystemOut"/>
-    <fullyQualifiedTypeName name="com.java.Collections.Classes.A"/>
     <fullyQualifiedTypeName name="com.java.Collections.I"/>
     <fullyQualifiedTypeName name="com.java.Collections.Abstract"/>
     <fullyQualifiedTypeName name="com.java.Collections.Interface"/>
@@ -59,5 +55,9 @@
     <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
     <fullyQualifiedTypeName name="java.awt.Button"/>
     <fullyQualifiedTypeName name="java.awt.Label"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="com.java.Abstraction.Abstraction"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="com.java.String.Strings"/>
 </qualifiedTypeNameHistroy>

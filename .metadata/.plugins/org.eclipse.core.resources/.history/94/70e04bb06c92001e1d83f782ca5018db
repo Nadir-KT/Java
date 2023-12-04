@@ -1,0 +1,33 @@
+package com.java.GUI.Swings;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+import java.*;
+
+public class Components {
+
+	public static void main(String[] args) {
+		// JButton JTextField JTextArea
+		JFrame f=new JFrame("JFrame");//Constructs a new frame that is initially invisible. 
+		JButton b=new JButton("Click");//Creates a button with text.
+		b.setBounds(120, 100, 120, 50);
+		new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+		f.add(b);
+		JTextField tf=new JTextField();//Constructs a new TextField.
+		tf.setBounds(120, 180, 100, 50);
+		
+		f.add(tf);
+		f.setSize(400, 400);
+		f.setLayout(null);
+		f.setVisible(true);
+	}
+
+}
