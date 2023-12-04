@@ -51,12 +51,12 @@ public class Components2 {
 			}
 		});
 		
-		String arr[]= {"USA","China","India","Russia"};
+		String arr[]= {"US","China","India","Russia"};
 		JComboBox<String> cb=new JComboBox<String>(arr);
 		cb.setBounds(20, 250, 300, 20);
 		f.add(cb);
 		
-		f.setSize(400, 400);
+		f.setSize(400, 500);
 		f.setLayout(null);
 		f.setVisible(true);
 	}

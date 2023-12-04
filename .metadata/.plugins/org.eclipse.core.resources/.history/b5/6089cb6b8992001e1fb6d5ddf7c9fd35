@@ -1,0 +1,48 @@
+package com.java.GUI.Swings;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+public class Components2 {
+	static JLabel l,usr,pwd;
+	public static void main(String[] args) {
+		// JPasswordField JCheckBox JRadioButton JComboBox 
+		JFrame f=new JFrame("JFrame");//Constructs a new frame that is initially invisible. 
+		
+		l=new JLabel();
+		l.setBounds(20, 150, 200, 200);//setBounds(int x, int y, int width, int height)
+		f.add(l);
+		
+		usr=new JLabel("User Name");
+		usr.setBounds(50, 75, 100, 30);
+		f.add(usr);
+		
+		JTextField tf=new JTextField();
+		tf.setBounds(50, 150, 100, 30);
+		f.add(tf);
+		
+		JPasswordField pf=new JPasswordField();
+		pf.setBounds(100, 100, 100, 50);
+		f.add(pf);
+		
+		
+		
+		pwd=new JLabel("Password");
+		pwd.setBounds(50, 100, 100, 30);
+		f.add(pwd);
+		
+		JButton b=new JButton("Login");//Creates a button with text.
+		b.setBounds(100, 120, 100, 50);
+		f.add(b);
+		
+		
+		
+		f.setSize(400, 500);
+		f.setLayout(null);
+		f.setVisible(true);
+	}
+
+}
