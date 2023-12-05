@@ -1,0 +1,30 @@
+package com.java.GUI.Swings;//21:44
+
+import javax.swing.DefaultListModel;
+import javax.swing.JFrame;
+import javax.swing.JList;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+public class List {
+
+	public static void main(String[] args) {
+		// JTable JList JOptionPane
+		JFrame frame=new JFrame("JFrame");
+		
+				
+		DefaultListModel<String> dlm=new DefaultListModel<String>();
+		dlm.addElement("SniperGhost");
+		dlm.addElement("Engineer");
+		dlm.addElement("Cadet");
+		dlm.addElement("Commander");
+		dlm.addElement("WingMan");
+		JList<String> jl=new JList<String>(dlm);
+		frame.add(jl);
+				
+		frame.setSize(400, 400);
+		frame.setVisible(true);
+		frame.setLayout(null);
+	}
+
+}

@@ -1,9 +1,0 @@
-package com.java.MultiThreading;
-
-public class InterThreadCom {
-	double balance=5000;
-	synchronized public void withdraw(double amt)
-	{
-		System.out.println("Going to withdraw");
-	}
-}

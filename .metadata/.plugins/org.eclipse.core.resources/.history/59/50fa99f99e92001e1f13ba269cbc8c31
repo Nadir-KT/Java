@@ -1,0 +1,52 @@
+package com.java.GUI.Swings;//21:44
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.DefaultListModel;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JList;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+public class List implements ActionListener {
+
+	public static void main(String[] args) {
+		// JTable JList JOptionPane
+		JFrame frame=new JFrame("JFrame");
+		
+				
+		DefaultListModel<String> dlm1=new DefaultListModel<String>();
+		dlm1.addElement("SniperGhost");
+		dlm1.addElement("Engineer");
+		dlm1.addElement("Cadet");
+		dlm1.addElement("Commander");
+		dlm1.addElement("WingMan");
+		JList<String> jl1=new JList<String>(dlm1);
+		frame.add(jl1);
+		
+		DefaultListModel<String> dlm2=new DefaultListModel<String>();
+		dlm2.addElement("Electrical");
+		dlm2.addElement("Mechanical");
+		dlm2.addElement("Civil");
+		dlm2.addElement("Chemical");
+		dlm2.addElement("Mechatronics");
+		JList<String> jl2=new JList<String>(dlm2);
+		frame.add(jl2);
+		
+		JButton jb=new JButton("Show Frameworks");
+		jb.setBounds(200, 150, 50, 50);
+				
+		frame.setSize(400, 400);
+		frame.setVisible(true);
+		//frame.setLayout(null);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
