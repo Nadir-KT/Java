@@ -1,0 +1,26 @@
+package com.java.GUI.Swings;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPasswordField;
+
+public class ToolTip {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame frame=new JFrame("ToolTip");
+		JLabel Label=new JLabel("Password");
+		Label.setBounds(20, 100, 100, 30);
+		JPasswordField pwfd=new JPasswordField();
+		pwfd.setBounds(100, 50, 100, 50);
+		pwfd.setToolTipText("Enter the Password");
+		frame.add(pwfd);
+		frame.add(Label);
+		frame.add(Label);
+		frame.setLayout(new FlowLayout());
+		frame.setVisible(true);
+	}
+
+}

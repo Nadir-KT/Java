@@ -1,0 +1,31 @@
+package com.java.GUI.Swings;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JScrollBar;
+import javax.swing.JSlider;
+import javax.swing.SpinnerNumberModel;
+
+public class ScrollBar {
+	public ScrollBar() {
+		JFrame frame=new JFrame();
+		//JScrollBar
+		JScrollBar sb=new JScrollBar();//Creates a vertical scrollbar with the following initial values: 
+		sb.setBounds(100, 100, 50, 80);
+		frame.add(sb);
+		//JSlider
+		JPanel panel=new JPanel();
+		JSlider slider=new JSlider(JSlider.HORIZONTAL, 0 ,100, 50);//JSlider(int orientation, int min, int max, int value)
+		panel.add(slider);
+		frame.add(panel);
+		//JSpinner
+		SpinnerNumberModel model=new SpinnerNumberModel(5, 0, 15, 1);//SpinnerNumberModel(int value, int minimum, int maximum, int stepSize)
+		
+		frame.setSize(400, 400);
+		frame.setVisible(true);
+		frame.setLayout(null);
+	}
+	public static void main(String[] args) {
+		new ScrollBar();
+	}
+}

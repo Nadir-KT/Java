@@ -1,0 +1,36 @@
+package com.java.GUI.Swings;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+public class FileChooser extends JFrame implements ActionListener {
+
+	public FileChooser() {
+		JMenuItem mi=new JMenuItem("Open File");
+		mi.addActionListener((ActionListener)this);
+		
+		JMenu m=new JMenu("File");
+		m.add(mi);
+		
+		JMenuBar mb=new JMenuBar();
+		mb.setBounds(0, 0, 800, 20);
+		mb.add(mi);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,45 @@
+package com.java.GUI.Swings;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JScrollBar;
+import javax.swing.JSlider;
+import javax.swing.JSpinner;
+import javax.swing.SpinnerNumberModel;
+
+public class ScrollBar implements ActionListener {
+	public ScrollBar() {
+		JFrame frame=new JFrame();
+		//JScrollBar//Creates a vertical ScrollBar
+		JScrollBar sb=new JScrollBar(); 
+		sb.setBounds(100, 100, 50, 80);
+		frame.add(sb);
+		//JSlider(int orientation, int min, int max, int value)
+		JPanel panel=new JPanel();
+		JSlider slider=new JSlider(JSlider.HORIZONTAL, 0 ,100, 50);
+		panel.add(slider);
+		frame.add(panel);
+		//JSpinner
+		SpinnerNumberModel model=new SpinnerNumberModel(5, 0, 15, 1);//SpinnerNumberModel(int value, int minimum, int maximum, int stepSize)
+		JSpinner spinner=new JSpinner(model);
+		spinner.setBounds(100, 200, 50, 50);
+		frame.add(spinner);
+		
+		
+		
+		frame.setSize(400, 400);
+		frame.setLayout(null);
+		frame.setVisible(true);
+	}
+	public static void main(String[] args) {
+		new ScrollBar();
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+}

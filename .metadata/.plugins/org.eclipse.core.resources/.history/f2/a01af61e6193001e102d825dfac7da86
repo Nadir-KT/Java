@@ -1,0 +1,14 @@
+package com.java.GUI.Swings;
+
+public class ToggleButton {
+
+	public ToggleButton() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

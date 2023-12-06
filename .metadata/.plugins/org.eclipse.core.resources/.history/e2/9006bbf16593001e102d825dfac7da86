@@ -1,0 +1,19 @@
+package com.java.GUI.Swings;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JToggleButton;
+
+public class ToggleButton extends JFrame {
+
+	JToggleButton tb;
+	JButton bt;
+	public ToggleButton() {
+		setTitle("Toggle Example");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
