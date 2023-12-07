@@ -1,0 +1,17 @@
+package com.java.GUI.Applet;
+
+import java.awt.Graphics;
+import java.awt.Image;
+
+public class IMG extends Applets {
+	
+	Image pic;
+	public void init() //Called by the browser or applet viewer to inform this applet that it has been loaded into the system. It is always called before the first time that the start method is called. 
+	{
+		pic=getImage(getDocumentBase(), "/nature.jpg");
+	}
+	
+	public void paint(Graphics g) {
+		g.drawImage(pic, 150, 120, this);
+	}
+}

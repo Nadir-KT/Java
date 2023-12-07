@@ -1,5 +1,0 @@
-package com.java.GUI.AWT;
-//Event Classes & Listener Interface
-public class EventHandling {
-
-}
