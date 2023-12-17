@@ -1,0 +1,147 @@
+Java Database Connectivity (JDBC) is an application programming interface (API) for the Java programming language which defines how a client may access a database. It is a Java-based data access technology used for Java database connectivity. It is part of the Java Standard Edition platform, from Oracle Corporation.
+
+What is API
+API (Application programming interface) is a document that contains a description of all the features of a product or software. It represents classes and interfaces that software programs can follow to communicate with each other. An API can be created for applications, libraries, operating systems, etc.
+
+JDBC stands for Java Database Connectivity. JDBC is a Java API to connect and execute the query with the database. It is a part of JavaSE (Java Standard Edition). JDBC API uses JDBC drivers to connect with the database. There are four types of JDBC drivers:
+
+1. JDBC-ODBC Bridge Driver
+2. Native Driver (partially java driver)
+3. Network Protocol Driver (fully java driver)
+4. Thin Driver (fully java driver)
+
+1) JDBC-ODBC bridge driver - In Java 8, the JDBC-ODBC Bridge has been removed.
+The JDBC-ODBC bridge driver uses ODBC driver to connect to the database. The JDBC-ODBC bridge driver converts JDBC method calls into the ODBC function calls. This is now discouraged because of thin driver.
+
+Advantages:
+* easy to use.
+* can be easily connected to any database.
+Disadvantages:
+* Performance degraded because JDBC method call is converted into the ODBC function calls.
+* The ODBC driver needs to be installed on the client machine.
+
+2) Native-API driver (partially java driver)
+The Native API driver uses the client-side libraries of the database. The driver converts JDBC method calls into native calls of the database API. It is not written entirely in java.
+
+Advantage:
+* performance upgraded than JDBC-ODBC bridge driver.
+Disadvantage:
+* The Native driver needs to be installed on the each client machine.
+* The Vendor client library needs to be installed on client machine.
+
+3) Network Protocol driver (fully java driver)
+The Network Protocol driver uses middleware (application server) that converts JDBC calls directly or indirectly into the vendor-specific database protocol. It is fully written in java.
+
+Advantage:
+* No client side library is required because of application server that can perform many tasks like auditing, load balancing, logging etc.
+Disadvantages:
+* Network support is required on client machine.
+* Requires database-specific coding to be done in the middle tier.
+* Maintenance of Network Protocol driver becomes costly because it requires database-specific coding to be done in the middle tier.
+
+4) Thin driver (fully java driver)
+The thin driver converts JDBC calls directly into the vendor-specific database protocol. That is why it is known as thin driver. It is fully written in Java language.
+
+Advantage:
+* Better performance than all other drivers.
+* No software is required at client side or server side.
+Disadvantage:
+* Drivers depend on the Database.
+
+Java database connectivity steps
+--------------------------------
+The fundamental steps involved in the process of connecting to a database and executing a query consist of the following:
+1.Import JDBC packages 
+	https://dev.mysql.com/downloads/connector/j/
+	https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+	https://dev.mysql.com/doc/connector-j/en/connector-j-usagenotes-connect-drivermanager.html
+	Project Properties->Java Build Path->Libraries->Add External JARs->Apply and Close
+2.Load JDBC driver - 2 Options
+	A. By creating a new class
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	B. By reference
+	DriverManager.registerDriver(new Driver());
+3.Define database URL
+	String url="jdbc:mysql://host_address:port/DataBaseName";
+4.Establish a connection to the database URL using DriverManager.
+	getConnection(String url, String user, String password);
+5.Create a statement object to perform queries to the database.
+	prepareStatement("insert into TableName(columns),values('"+values+"')");
+	prepareStatement("insert into TableName(columns),values(?,?,?)");
+	//SQL statements without parameters are normally executed using Statement objects. 
+	createStatement();
+	//If the same SQL statement is executed many times, it may be more efficient to use a PreparedStatement object.
+6.Execute the statement object and return a query resultset.
+	PreparedStatementObjectName.executeUpdate(); //statement that returns nothing(Boolean)
+	executeQuery("select * from TableName"); //returns a single ResultSet object. 
+7.Close the connection with the specific database. 
+	ConnectionName.close();
+	
+DriverManager class
+-------------------
+https://www.javatpoint.com/DriverManager-class
+The DriverManager class is the component of JDBC API and also a member of the java.sql package. The DriverManager class acts as an interface between users and drivers. It keeps track of the drivers that are available and handles establishing a connection between a database and the appropriate driver. It contains all the appropriate methods to register and deregister the database driver class and to create a connection between a Java application and the database. The DriverManager class maintains a list of Driver classes that have registered themselves by calling the method DriverManager.registerDriver(). Note that before interacting with a Database, it is a mandatory process to register the driver; otherwise, an exception is thrown.
+
+Statement interface
+-------------------
+https://www.javatpoint.com/Statement-interface
+The Statement interface provides methods to execute queries with the database. The statement interface is a factory of ResultSet i.e. it provides factory method to get the object of ResultSet.
+
+Commonly used methods of Statement interface:
+The important methods of Statement interface are as follows:
+
+1) public ResultSet executeQuery(String sql): is used to execute SELECT query. It returns the object of ResultSet.
+2) public int executeUpdate(String sql): is used to execute specified query, it may be create, drop, insert, update, delete etc.
+3) public boolean execute(String sql): is used to execute queries that may return multiple results.
+4) public int[] executeBatch(): is used to execute batch of commands.
+
+Connection interface
+--------------------
+https://www.javatpoint.com/Connection-interface
+A Connection is a session between a Java application and a database. It helps to establish a connection with the database.
+
+The Connection interface is a factory of Statement, PreparedStatement, and DatabaseMetaData, i.e., an object of Connection can be used to get the object of Statement and DatabaseMetaData. The Connection interface provide many methods for transaction management like commit(), rollback(), setAutoCommit(), setTransactionIsolation(), etc.
+
+By default, connection commits the changes after executing queries.
+
+Commonly used methods of Connection interface:
+
+1) public Statement createStatement(): creates a statement object that can be used to execute SQL queries.
+
+2) public Statement createStatement(int resultSetType,int resultSetConcurrency): Creates a Statement object that will generate ResultSet objects with the given type and concurrency.
+
+3) public void setAutoCommit(boolean status): is used to set the commit status. By default, it is true.
+
+4) public void commit(): saves the changes made since the previous commit/rollback is permanent.
+
+5) public void rollback(): Drops all changes made since the previous commit/rollback.
+
+6) public void close(): closes the connection and Releases a JDBC resources immediately.
+
+PreparedStatement interface
+---------------------------
+https://www.javatpoint.com/PreparedStatement-interface
+The PreparedStatement interface is a subinterface of Statement. It is used to execute parameterized query.
+
+Let's see the example of parameterized query:
+String sql="insert into emp values(?,?,?)";  
+
+As you can see, we are passing parameter (?) for the values. Its value will be set by calling the setter methods of PreparedStatement.
+
+Why use PreparedStatement?
+Improves performance: The performance of the application will be faster if you use PreparedStatement interface because query is compiled only once.
+
+How to get the instance of PreparedStatement?
+The prepareStatement() method of Connection interface is used to return the object of PreparedStatement. 
+Syntax:
+public PreparedStatement prepareStatement(String query)throws SQLException{}  
+
+Methods of PreparedStatement interface
+The important methods of PreparedStatement interface are given below:
+
+public void setInt(int paramIndex, int value):	sets the integer value to the given parameter index.
+public void setString(int paramIndex, String value):	sets the String value to the given parameter index.
+public void setFloat(int paramIndex, float value):	sets the float value to the given parameter index.
+public void setDouble(int paramIndex, double value):	sets the double value to the given parameter index.
+public int executeUpdate():	executes the query. It is used for create, drop, insert, update, delete etc.
+public ResultSet executeQuery():	executes the select query. It returns an instance of ResultSet.
