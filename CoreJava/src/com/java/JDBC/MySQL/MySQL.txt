@@ -52,3 +52,8 @@ History of MySQL
 The project of MySQL was started in 1979 when MySQL's inventor Michael Widenius developed an in-house database tool called UNIREG for managing databases. After that, UNIREG has been rewritten in several different languages and extended to handle big databases. After some time, Michael Widenius contacted David Hughes, the author of mSQL, to see if Hughes would be interested in connecting mSQL to UNIREG's B+ ISAM handler to provide indexing to mSQL. That's the way MySQL came into existence.
 
 MySQL is named after the daughter of co-founder Michael Widenius whose name is "My".
+
+https://www.javatpoint.com/triggers-in-sql-server
+https://wikitechy.com/tutorials/sql/subquery-in-sql-server
+https://www.w3resource.com/sql/subqueries/multiplee-row-column-subqueries.php
+https://www.guru99.com/sub-queries.html
