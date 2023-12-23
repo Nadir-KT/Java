@@ -1,4 +1,4 @@
-package com.java.GUI.AWT;//19:50
+package com.java.GUI.AWT;
 
 import java.awt.Button;
 import java.awt.Color;
