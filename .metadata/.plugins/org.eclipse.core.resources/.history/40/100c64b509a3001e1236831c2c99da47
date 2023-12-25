@@ -37,7 +37,7 @@ public class CustomExceptionsMain {
 					account.pinChange(g);
 				} catch (CustomExceptionsPin e) {
 					System.out.println("pinChange failure");// TODO Auto-generated catch block
-					e.printStackTrace();
+					//e.printStackTrace();
 				}
 				break;
 			default:

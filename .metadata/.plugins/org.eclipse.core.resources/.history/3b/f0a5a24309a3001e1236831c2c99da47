@@ -1,0 +1,7 @@
+package com.java.Exception;
+
+public class CustomExceptionsPin extends Exception {
+	public void CustomExceptionsPin() {
+		System.out.println("Less Balance");
+	}
+}

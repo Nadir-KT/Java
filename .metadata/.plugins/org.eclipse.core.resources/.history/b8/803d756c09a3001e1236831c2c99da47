@@ -32,13 +32,7 @@ public class CustomExceptionsMain {
 				break;
 			case 3:
 				System.out.println("Enter your old pin");
-				double g=scn.nextDouble();
-				try {
-					account.pinChange(g);
-				} catch (CustomExceptionsPin e) {
-					System.out.println("pinChange failure");// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				account.pinChange();
 				break;
 			default:
 				System.out.println("Invalid Option");
@@ -50,4 +44,5 @@ public class CustomExceptionsMain {
 		}while(d==0);
 		System.out.println("Thank you");
 	}
+
 }
