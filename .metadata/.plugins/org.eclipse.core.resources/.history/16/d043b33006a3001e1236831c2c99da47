@@ -48,6 +48,6 @@ public class ArrayListImplimentation //Unlimited size & type
 		return s1;
 	}
 	public void delete(int index) {
-		arr[index]="";
+		arr[index++]="";
 	}
 }
