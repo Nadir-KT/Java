@@ -326,6 +326,7 @@ CREATE TRIGGER trigger_name
 */
 
 show databases;
+create database DataBaseName;
 use DataBaseName;
 show tables;
 select * from TableName;
