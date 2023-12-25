@@ -13,8 +13,6 @@ public class ArrayListImpiMain {
 		System.out.println(a1);
 		System.out.println(a1.get(2));//based on index
 		System.out.println(a1.size());
-		a1.delete(2);		
-		System.out.println(a1);
 	}
 
 }
