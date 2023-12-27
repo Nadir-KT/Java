@@ -14,4 +14,25 @@ describe customer_table;
 select * from customer_table;
 
 describe student;
-drop table student;
+describe employee;
+describe Incentives;
+select * from employee;
+select * from Incentives;
+drop table employee;
+drop table Incentives;
+select * from employee full join Incentives using(EMPLOYEE_REF_ID);
+
+SELECT * FROM employee JOIN Incentives ON employee.EMPLOYEE_REF_ID = Incentives.EMPLOYEE_REF_ID;
+SELECT * FROM employee JOIN Incentives USING (EMPLOYEE_REF_ID);
+SELECT * FROM employee INNER JOIN Incentives ON employee.EMPLOYEE_REF_ID = Incentives.EMPLOYEE_REF_ID;
+SELECT * FROM employee INNER JOIN Incentives USING (EMPLOYEE_REF_ID);
+SELECT * FROM employee LEFT JOIN Incentives ON employee.EMPLOYEE_REF_ID = Incentives.EMPLOYEE_REF_ID;
+SELECT * FROM employee LEFT JOIN Incentives USING (EMPLOYEE_REF_ID);
+SELECT * FROM employee RIGHT JOIN Incentives ON employee.EMPLOYEE_REF_ID = Incentives.EMPLOYEE_REF_ID;
+SELECT * FROM employee RIGHT JOIN Incentives USING (EMPLOYEE_REF_ID);
+SELECT * FROM employee CROSS JOIN Incentives;
+SELECT * FROM employee FULL JOIN Incentives;
+SELECT * FROM employee JOIN Incentives;
+SELECT * FROM employee LEFT JOIN Incentives USING(EMPLOYEE_REF_ID) 
+UNION 
+SELECT * FROM employee RIGHT JOIN Incentives USING(EMPLOYEE_REF_ID);
