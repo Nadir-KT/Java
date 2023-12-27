@@ -32,8 +32,8 @@ public class Notepad extends JFrame {
 		format = new JMenu("Format");
 		help = new JMenu("Help");
 		
-		open = new JMenuItem("Open");
 		newFile = new JMenuItem("New");
+		open = new JMenuItem("Open");		
 		save = new JMenuItem("Save");
 		exit = new JMenuItem("Exit");
 		undo = new  JMenuItem("Undo                 Ctrl+Z");
