@@ -99,3 +99,5 @@ public class CRUD {
 	}
 
 }
+/* https://www.c-sharpcorner.com/UploadFile/e68763/creating-table-and-retrieving-data-from-mysql-in-jdbc/
+https://www3.ntu.edu.sg/home/ehchua/programming/java/jdbc_basic.html */
