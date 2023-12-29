@@ -69,7 +69,7 @@ public class Applets extends Applet
         //public abstract void fillArc(int x, int y, int width, int height, int startAngle, int arcAngle);//Fills a circular or elliptical arc covering the specified rectangle. 
         g.fillArc(270, 500, 50, 50, 50, 200);
         //public abstract void setColor(Color c); //Sets this graphics context's current color to the specified color. All subsequent graphics operations using this graphics context use this specified color.
-        g.setColor(Color.blue);
+        g.setColor(Color.blue);;
     }
 }
 /*<html>

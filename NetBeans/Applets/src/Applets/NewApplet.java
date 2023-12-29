@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Applet.java to edit this template
+ */
 /*Java Applet// https://www.javatpoint.com/java-applet
 Applet is a special type of program that is embedded in the webpage to generate the dynamic content. It runs inside the browser and works at client side.
 
@@ -41,14 +45,23 @@ The Component class provides 1 life cycle method of applet.
 
 public void paint(Graphics g): is used to paint the Applet. It provides Graphics class object that can be used for drawing oval, rectangle, arc etc.
 */
-package com.java.GUI.Applet;
+package Applets;
 //javac Applets.java
 //appletviewer Applets.java
 import java.applet.Applet;
 import java.awt.Color;
 import java.awt.Graphics;
-public class Applets extends Applet 
-{
+
+/**
+ *
+ * @author NDR
+ */
+public class NewApplet extends Applet {
+
+    /**
+     * Initialization method that will be called after the applet is loaded into
+     * the browser.
+     */
     public void paint(Graphics g)
     {
     	g.setColor(Color.blue);
@@ -71,6 +84,8 @@ public class Applets extends Applet
         //public abstract void setColor(Color c); //Sets this graphics context's current color to the specified color. All subsequent graphics operations using this graphics context use this specified color.
         g.setColor(Color.blue);
     }
+
+    // TODO overwrite start(), stop() and destroy() methods
 }
 /*<html>
 <body>

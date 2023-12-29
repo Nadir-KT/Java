@@ -41,7 +41,7 @@ The Component class provides 1 life cycle method of applet.
 
 public void paint(Graphics g): is used to paint the Applet. It provides Graphics class object that can be used for drawing oval, rectangle, arc etc.
 */
-package com.java.GUI.Applet;
+package Applets;
 //javac Applets.java
 //appletviewer Applets.java
 import java.applet.Applet;
