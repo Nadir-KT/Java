@@ -1,11 +1,12 @@
 package com.java.GUI.Applet;
 
+import java.applet.Applet;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.image.ImageObserver;
 import java.net.URL;
 
-public class IMG extends Applets {
+public class IMG extends Applet {
 	
 	Image pic;
 	public void init() //Called by the browser or applet viewer to inform this applet that it has been loaded into the system. It is always called before the first time that the start method is called. 

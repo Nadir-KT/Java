@@ -9,6 +9,8 @@ public class Components {
 
 	public static void main(String[] args) {
 		// JButton JTextField JTextArea JLabel
+		// https://www3.ntu.edu.sg/home/ehchua/programming/java/j4a_gui.html
+		// https://www3.ntu.edu.sg/home/ehchua/programming/java/J4a_GUI_2.html
 		JFrame f=new JFrame("JFrame");//Constructs a new frame that is initially invisible. 
 		
 		JTextField tf1=new JTextField();//Constructs a new TextField.
