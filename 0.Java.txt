@@ -70,3 +70,11 @@ Use an executiin environment JRE: JavaSE - 1.8
 Open Prespective->No
 Package->Folder->Class
 Autofill=Ctrl+Space
+
+In software design, the Java Native Interface (JNI) is a foreign function interface programming framework that enables Java code running in a Java virtual machine (JVM) to call and be called by[1] native applications (programs specific to a hardware and operating system platform) and libraries written in other languages such as C, C++ and assembly.
+JNI enables programmers to write native methods to handle situations when an application cannot be written entirely in the Java programming language,
+
+Thorough understanding of java build systems – ant, maven, gradle,
+Apache Ant is a software tool for automating software build processes which originated from the Apache Tomcat project in early 2000 as a replacement for the Make build tool of Unix. It is similar to Make, but is implemented using the Java language and requires the Java platform. 
+Maven is a build automation tool used primarily for Java projects. Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages.
+Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing. Supported languages include Java, C/C++, and JavaScript.
